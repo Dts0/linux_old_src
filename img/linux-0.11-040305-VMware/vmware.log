@@ -1,0 +1,1538 @@
+2018-05-10T20:39:02.589+08:00| vmx| I125: Log for VMware Player pid=8935 version=12.5.9 build=build-7535481 option=Release
+2018-05-10T20:39:02.589+08:00| vmx| I125: The process is 64-bit.
+2018-05-10T20:39:02.589+08:00| vmx| I125: Host codepage=UTF-8 encoding=UTF-8
+2018-05-10T20:39:02.589+08:00| vmx| I125: Host is Linux 4.4.0-121-generic Ubuntu 16.04.4 LTS
+2018-05-10T20:39:02.572+08:00| vmx| I125: VTHREAD initialize main thread 0 "vmx" tid 8935
+2018-05-10T20:39:02.572+08:00| vmx| I125: LOCALE zh_CN.UTF-8 -> NULL
+2018-05-10T20:39:02.572+08:00| vmx| I125: Msg_SetLocaleEx: HostLocale=UTF-8 UserLocale=NULL
+2018-05-10T20:39:02.573+08:00| vmx| I125: DictionaryLoad: Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2018-05-10T20:39:02.573+08:00| vmx| I125: Msg_Reset:
+2018-05-10T20:39:02.573+08:00| vmx| I125: [msg.dictionary.load.openFailed] Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2018-05-10T20:39:02.573+08:00| vmx| I125: ----------------------------------------
+2018-05-10T20:39:02.573+08:00| vmx| I125: ConfigDB: Failed to load /usr/lib/vmware/settings
+2018-05-10T20:39:02.573+08:00| vmx| I125: DictionaryLoad: Cannot open file "/home/dts/.vmware/config": No such file or directory.
+2018-05-10T20:39:02.573+08:00| vmx| I125: Msg_Reset:
+2018-05-10T20:39:02.573+08:00| vmx| I125: [msg.dictionary.load.openFailed] Cannot open file "/home/dts/.vmware/config": No such file or directory.
+2018-05-10T20:39:02.573+08:00| vmx| I125: ----------------------------------------
+2018-05-10T20:39:02.573+08:00| vmx| I125: ConfigDB: Failed to load ~/.vmware/config
+2018-05-10T20:39:02.573+08:00| vmx| I125: OBJLIB-LIB: Objlib initialized.
+2018-05-10T20:39:02.574+08:00| vmx| I125: DictionaryLoad: Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2018-05-10T20:39:02.574+08:00| vmx| I125: PREF Optional preferences file not found at /usr/lib/vmware/settings. Using default values.
+2018-05-10T20:39:02.574+08:00| vmx| I125: DictionaryLoad: Cannot open file "/home/dts/.vmware/config": No such file or directory.
+2018-05-10T20:39:02.574+08:00| vmx| I125: PREF Optional preferences file not found at /home/dts/.vmware/config. Using default values.
+2018-05-10T20:39:02.575+08:00| vmx| I125: Fail to realpath: /usr/lib/vmware/lib/libcrypto.so.1.0.1-x86-64/libcrypto.so.1.0.1, errno=2
+2018-05-10T20:39:02.575+08:00| vmx| I125: Denied library: /usr/lib/vmware/lib/libcrypto.so.1.0.1-x86-64/libcrypto.so.1.0.1
+2018-05-10T20:39:02.663+08:00| vmx| I125: Hostname=dts
+2018-05-10T20:39:02.663+08:00| vmx| I125: IP=127.0.0.1 (lo)
+2018-05-10T20:39:02.663+08:00| vmx| I125: IP=192.168.43.133 (wlp1s0)
+2018-05-10T20:39:02.663+08:00| vmx| I125: IP=10.8.0.1 (tun0)
+2018-05-10T20:39:02.663+08:00| vmx| I125: IP=172.16.14.1 (vmnet1)
+2018-05-10T20:39:02.663+08:00| vmx| I125: IP=172.16.9.1 (vmnet8)
+2018-05-10T20:39:02.663+08:00| vmx| I125: System uptime 3965320000 us
+2018-05-10T20:39:02.663+08:00| vmx| I125: Command line: "/usr/lib/vmware/bin/vmware-vmx" "-ssnapshot.numRollingTiers=0" "-s" "vmx.stdio.keep=TRUE" "-#" "product=4;name=VMware Player;version=12.5.9;buildnumber=7535481;licensename=VMware Player;licenseversion=12.0+;" "-@" "duplex=3;msgs=ui" "/media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmx"
+2018-05-10T20:39:02.663+08:00| vmx| I125: Msg_SetLocaleEx: HostLocale=UTF-8 UserLocale=NULL
+2018-05-10T20:39:02.664+08:00| vmx| I125: Duplex socket: 3
+2018-05-10T20:39:02.690+08:00| vmx| I125: WQPoolAllocPoll : pollIx = 1, signalHandle = 9
+2018-05-10T20:39:02.690+08:00| vmx| I125: WQPoolAllocPoll : pollIx = 2, signalHandle = 11
+2018-05-10T20:39:02.691+08:00| vmx| I125: VigorTransport listening on fd 12
+2018-05-10T20:39:02.691+08:00| vmx| I125: Vigor_Init 1
+2018-05-10T20:39:02.691+08:00| vmx| I125: Connecting 'ui' to fd '3' with user '(null)'
+2018-05-10T20:39:02.691+08:00| vmx| I125: VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2018-05-10T20:39:02.714+08:00| vmx| I125: /media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmx: Setup symlink /var/run/vmware/fc2034d7ad1191dd83e994d4573df9e7 -> /var/run/vmware/1000/3965320000_8935
+2018-05-10T20:39:02.714+08:00| vmx| I125: Vix: [8935 mainDispatch.c:490]: VMAutomation: Initializing VMAutomation.
+2018-05-10T20:39:02.714+08:00| vmx| I125: Vix: [8935 mainDispatch.c:746]: VMAutomationOpenListenerSocket() listening
+2018-05-10T20:39:02.720+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2018-05-10T20:39:02.720+08:00| vmx| I125: Transitioned vmx/execState/val to poweredOff
+2018-05-10T20:39:02.720+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2018-05-10T20:39:02.720+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2018-05-10T20:39:02.720+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2018-05-10T20:39:02.721+08:00| vmx| I125: FeatureCompat: No EVC masks.
+2018-05-10T20:39:02.721+08:00| vmx| I125: Common: mask 0 = 0xffffffffffffffff
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID vendor: GenuineIntel
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID family: 0x6 model: 0x17 stepping: 0xa
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID codename: Penryn/Harpertown (Core2)
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID name: Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000000, 0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000001, 0: 0x0001067a 0x00020800 0x0c08e3fd 0xbfebfbff
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000002, 0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43048
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000004, 0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000004, 1: 0x04000122 0x01c0003f 0x0000003f 0x00000001
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000004, 2: 0x04004143 0x02c0003f 0x00000fff 0x00000001
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000004, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x03122220
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000006, 0: 0x00000003 0x00000002 0x00000003 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000008, 0: 0x00000400 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000a, 0: 0x07280202 0x00000000 0x00000000 0x00000503
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 0: 0x00000003 0x00000240 0x00000240 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 10: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 11: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 12: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 13: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 14: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 15: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 16: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 17: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 18: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 19: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 1a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 1b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 1c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 1d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 1e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 1f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 20: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 21: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 22: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 23: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 24: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 25: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 26: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 27: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 28: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 29: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 2a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 2b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 2c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 2d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 2e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 2f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 30: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 31: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 32: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 33: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 34: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 35: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 36: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 37: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 38: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 39: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 3a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 3b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 3c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 3d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 3e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 0000000d, 3f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000001 0x20100800
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000003, 0: 0x44203229 0x43206f75 0x20205550 0x50202020
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000004, 0: 0x30303738 0x20402020 0x33352e32 0x007a4847
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x0c006040 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: hostCPUID level 80000008, 0: 0x00003024 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.722+08:00| vmx| I125: CPUID differences from hostCPUID.
+2018-05-10T20:39:02.722+08:00| vmx| I125: CPUID[1] level 00000001, 0: 0x0001067a 0x01020800 0x0c08e3fd 0xbfebfbff
+2018-05-10T20:39:02.722+08:00| vmx| I125: CPUID Maximum Physical Address Bits supported across all CPUs: 36
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR       0x3a =                0xf
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x480 =   0x5a08000000000d
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x481 =       0x3f00000016
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x482 = 0xf7f9fffe0401e172
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x483 =    0x3ffff00036dff
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x484 =     0x3fff000011ff
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x485 =            0x403c0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x486 =         0x80000021
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x487 =         0xffffffff
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x488 =             0x2000
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x489 =            0x467ff
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x48a =               0x2c
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x48b =       0x4100000000
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x48c =                  0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x48d =                  0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x48e =                  0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x48f =                  0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x490 =                  0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR      0x491 =                  0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR 0xc0010114 =                  0
+2018-05-10T20:39:02.723+08:00| vmx| I125: Common: MSR       0xce = 0x80170a2a4345060d
+2018-05-10T20:39:02.723+08:00| vmx| I125: UTIL: Current file descriptor limit: soft 4096, hard 1048576.
+2018-05-10T20:39:02.723+08:00| vmx| I125: VMMon_GetkHzEstimate: Calculated 2527015 kHz
+2018-05-10T20:39:02.723+08:00| vmx| I125: TSC kHz estimates: vmmon 2527015, cpuinfo 2530000, cpufreq 2531000.  Using 2531000 kHz
+2018-05-10T20:39:02.723+08:00| vmx| I125: TSC first measured delta 19
+2018-05-10T20:39:02.723+08:00| vmx| I125: TSC min delta 0
+2018-05-10T20:39:02.723+08:00| vmx| I125: PTSC: RefClockToPTSC 0 @ 1000000Hz -> 0 @ 2531000000Hz
+2018-05-10T20:39:02.723+08:00| vmx| I125: PTSC: RefClockToPTSC ((x * 2653945856) >> 20) + -5346275645651
+2018-05-10T20:39:02.723+08:00| vmx| I125: PTSC: tscOffset -589876117920
+2018-05-10T20:39:02.723+08:00| vmx| I125: PTSC: using TSC
+2018-05-10T20:39:02.723+08:00| vmx| I125: PTSC: hardware TSCs are synchronized.
+2018-05-10T20:39:02.723+08:00| vmx| I125: PTSC: hardware TSCs may have been adjusted by the host.
+2018-05-10T20:39:02.723+08:00| vmx| I125: PTSC: current PTSC=199643
+2018-05-10T20:39:02.723+08:00| vmx| I125: WQPoolAllocPoll : pollIx = 3, signalHandle = 17
+2018-05-10T20:39:02.723+08:00| vmx| I125: MKSXlib: Initialized thread-safe Xlib
+2018-05-10T20:39:02.724+08:00| vmx| I125: [0x561BEFDA8000-0x561BF0BC9A3C): /usr/lib/vmware/bin/vmware-vmx
+2018-05-10T20:39:02.724+08:00| vmx| I125: [0x7FFDA7F36000-0x7FFDA7F36E49): <no name>
+2018-05-10T20:39:02.766+08:00| vmx| I125: ConfigCheck: No rules file found. Checks are disabled.
+2018-05-10T20:39:02.766+08:00| vmx| I125: changing directory to /media/dts/word/git/linux_src/linux-0.11-040305-VMware/.
+2018-05-10T20:39:02.766+08:00| vmx| I125: Config file: /media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmx
+2018-05-10T20:39:02.766+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2018-05-10T20:39:02.766+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2018-05-10T20:39:02.786+08:00| vmx| A100: ConfigDB: Setting ide1:0.fileName = "auto detect"
+2018-05-10T20:39:02.787+08:00| vmx| A100: ConfigDB: Setting floppy0.clientDevice = "FALSE"
+2018-05-10T20:39:02.789+08:00| vmx| I125: VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOn without reset, soft, softOptionTimeout: 0.
+2018-05-10T20:39:02.789+08:00| vmx| I125: Tools: sending 'OS_PowerOn' (state = 3) state change request
+2018-05-10T20:39:02.789+08:00| vmx| I125: Tools: Delaying state change request to state 3.
+2018-05-10T20:39:02.789+08:00| vmx| W115: PowerOn
+2018-05-10T20:39:02.789+08:00| vmx| I125: VMX_PowerOn: VMX build 7535481, UI build 7535481
+2018-05-10T20:39:02.790+08:00| vmx| I125: libnuma.so found and in use.
+2018-05-10T20:39:02.791+08:00| vmx| I125: NUMA topology found.
+2018-05-10T20:39:02.791+08:00| vmx| I125: NUMA node 0: 3817MB, cpus 0x00000003 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:02.791+08:00| vmx| I125: Using processor: 0
+2018-05-10T20:39:02.792+08:00| vmx| I125: Using processor: 1
+2018-05-10T20:39:02.797+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2018-05-10T20:39:02.798+08:00| vmx| I125: HOST sysname Linux, nodename dts, release 4.4.0-121-generic, version #145-Ubuntu SMP Fri Apr 13 13:47:23 UTC 2018, machine x86_64, SMP, hz=250
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings 
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT --- NON PERSISTENT
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT --- USER PREFERENCES /home/dts/.vmware/preferences 
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT   pref.lastUpdateCheckSec = "1525952409"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT pref.vmplayer.firstRunDismissedVersion = "14.1.1"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT pref.vmplayer.exit.vmAction = "suspend"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT         vmWizard.guestKey = "otherlinux"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT vmWizard.installMediaType = "later"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT  pref.sharedFolder.maxNum = "2"
+2018-05-10T20:39:02.798+08:00| vmx| I125: DICT pref.sharedFolder0.vmPath = "/vm/#7f2c30328301fac6/"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.sharedFolder0.guestName = "share"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.sharedFolder0.hostPath = "/home/dts/git/linux-2.6.11"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.sharedFolder0.enabled = "TRUE"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.sharedFolder1.vmPath = "/vm/#7f2c30328301fac6/"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.sharedFolder1.guestName = "share"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.sharedFolder1.hostPath = "F:\share"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.sharedFolder1.enabled = "FALSE"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT             hints.hideAll = "FALSE"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.vmplayer.fullscreenMRU.count = "1"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.vmplayer.fullscreen.autohide = "TRUE"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT  hint.tools.toolsReminder = "FALSE"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT   hint.vmui.poweroff.soft = "FALSE"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT vmWizard.isoLocationMRU.count = "2"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT vmWizard.isoLocationMRU0.location = "/home/dts/git/linux-0.11/Image"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT pref.vmplayer.fullscreenMRU0.path = "localhost:/media/dts/word/虚拟机/macOS 10.12/macOS 10.12.vmx"
+2018-05-10T20:39:02.799+08:00| vmx| I125: DICT vmWizard.isoLocationMRU1.location = "/media/dts/word/双学位装机实战课201610/2-操作系统/mac/macOS S 10.12.4(16E195)(MD5-44E6A3EC38BB85CA49A68382D10FB264).cdr"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT --- USER DEFAULTS /home/dts/.vmware/config 
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT --- HOST DEFAULTS /etc/vmware/config 
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "3691401285"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "3043372831"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "yes"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT installerDefaults.transferVersion = "1"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT               VMCI_CONFED = "yes"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT                NETWORKING = "yes"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT             initscriptdir = "/etc/init.d"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT            VMBLOCK_CONFED = "yes"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT            authd.fullpath = "/usr/sbin/vmware-authd"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT           gksu.rootMethod = "sudo"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT              VSOCK_CONFED = "yes"
+2018-05-10T20:39:02.800+08:00| vmx| I125: DICT                    libdir = "/usr/lib/vmware"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT                    bindir = "/usr/bin"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT        vix.config.version = "1"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT    player.product.version = "12.5.9"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT       product.buildNumber = "7535481"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT --- SITE DEFAULTS /usr/lib/vmware/config 
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT                  tag.help = "introduction.htm"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT   tag.configurationEditor = "config_editor_newvm.htm"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT             tag.ideConfig = "devices_virtualdrive.htm"
+2018-05-10T20:39:02.801+08:00| vmx| I125: DICT          tag.floppyConfig = "devices_floppy.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT           tag.mouseConfig = "devices_mouse.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT             tag.netConfig = "devices_netadapter.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT        tag.parallelConfig = "devices_parallel.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT          tag.serialConfig = "devices_serial.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT           tag.soundConfig = "devices_sound.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT             tag.memConfig = "configvm_memory.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT            tag.miscConfig = "configvm.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT             tag.usbConfig = "devices_usb.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT         tag.displayConfig = "configvm_display-problems.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT                 tag.tools = "vmtools.htm"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT --- NONPERSISTENT
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT  snapshot.numRollingTiers = "0"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT             gui.available = "TRUE"
+2018-05-10T20:39:02.802+08:00| vmx| I125: DICT --- COMMAND LINE
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT  snapshot.numRollingTiers = "0"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT             gui.available = "TRUE"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT --- RECORDING
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT  snapshot.numRollingTiers = "0"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT            vmx.stdio.keep = "TRUE"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT             gui.available = "TRUE"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT --- CONFIGURATION /media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmx 
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT            config.version = "8"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT         virtualHW.version = "4"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT             scsi0.present = "TRUE"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT                   memsize = "16"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT     MemAllowAutoScaleDown = "FALSE"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT            ide0:0.present = "TRUE"
+2018-05-10T20:39:02.803+08:00| vmx| I125: DICT           ide0:0.fileName = "MS-DOS.vmdk"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT            ide1:0.present = "TRUE"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT           ide1:0.fileName = "auto detect"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT         ide1:0.deviceType = "cdrom-raw"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT           floppy0.present = "TRUE"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT             sound.present = "TRUE"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT          sound.virtualDev = "es1371"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT            sound.fileName = "-1"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT          sound.autodetect = "TRUE"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT               displayName = "LINUX-TEST"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT                   guestOS = "dos"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT                     nvram = "MS-DOS.nvram"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT         ide1:0.autodetect = "TRUE"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT          floppy0.fileType = "file"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT          floppy0.fileName = "bootimage-0.11-hd.new"
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT                workingDir = "."
+2018-05-10T20:39:02.804+08:00| vmx| I125: DICT               ide0:0.redo = ""
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT             uuid.location = "56 4d 67 50 0b da c9 47-19 2b 25 ed bd 24 fc 71"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT                 uuid.bios = "56 4d 67 50 0b da c9 47-19 2b 25 ed bd 24 fc 71"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT        extendedConfigFile = "MS-DOS.vmxf"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT      floppy0.clientDevice = "FALSE"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT virtualHW.productCompatibility = "hosted"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT --- USER DEFAULTS ~/.vmware/config 
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT --- HOST DEFAULTS /etc/vmware/config 
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT installerDefaults.componentDownloadEnabled = "yes"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "3691401285"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled.epoch = "3043372831"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT installerDefaults.dataCollectionEnabled = "yes"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT installerDefaults.transferVersion = "1"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT               VMCI_CONFED = "yes"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT                NETWORKING = "yes"
+2018-05-10T20:39:02.805+08:00| vmx| I125: DICT             initscriptdir = "/etc/init.d"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT            VMBLOCK_CONFED = "yes"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT            authd.fullpath = "/usr/sbin/vmware-authd"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT           gksu.rootMethod = "sudo"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT              VSOCK_CONFED = "yes"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT                    libdir = "/usr/lib/vmware"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT                    bindir = "/usr/bin"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT        vix.config.version = "1"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT    player.product.version = "12.5.9"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT       product.buildNumber = "7535481"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT --- SITE DEFAULTS /usr/lib/vmware/config 
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT                  tag.help = "introduction.htm"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT   tag.configurationEditor = "config_editor_newvm.htm"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT             tag.ideConfig = "devices_virtualdrive.htm"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT          tag.floppyConfig = "devices_floppy.htm"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT           tag.mouseConfig = "devices_mouse.htm"
+2018-05-10T20:39:02.806+08:00| vmx| I125: DICT             tag.netConfig = "devices_netadapter.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT        tag.parallelConfig = "devices_parallel.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT          tag.serialConfig = "devices_serial.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT           tag.soundConfig = "devices_sound.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT             tag.memConfig = "configvm_memory.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT            tag.miscConfig = "configvm.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT             tag.usbConfig = "devices_usb.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT         tag.displayConfig = "configvm_display-problems.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT                 tag.tools = "vmtools.htm"
+2018-05-10T20:39:02.807+08:00| vmx| I125: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings 
+2018-05-10T20:39:02.807+08:00| vmx| I125: ToolsISO: open of /usr/lib/vmware/isoimages/isoimages_manifest.txt.sig failed: Could not find the file
+2018-05-10T20:39:02.807+08:00| vmx| I125: ToolsISO: Unable to read signature file '/usr/lib/vmware/isoimages/isoimages_manifest.txt.sig', ignoring.
+2018-05-10T20:39:02.808+08:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file '/usr/lib/vmware/isoimages/isoimages_manifest.txt'
+2018-05-10T20:39:02.808+08:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2018-05-10T20:39:02.808+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2018-05-10T20:39:02.817+08:00| vmx| I125: Host VT-x Capabilities:
+2018-05-10T20:39:02.817+08:00| vmx| I125: Basic VMX Information (0x005a08000000000d)
+2018-05-10T20:39:02.817+08:00| vmx| I125:   VMCS revision ID                  13
+2018-05-10T20:39:02.817+08:00| vmx| I125:   VMCS region length              2048
+2018-05-10T20:39:02.817+08:00| vmx| I125:   VMX physical-address width   natural
+2018-05-10T20:39:02.817+08:00| vmx| I125:   SMM dual-monitor mode            yes
+2018-05-10T20:39:02.818+08:00| vmx| I125:   Advanced INS/OUTS info           yes
+2018-05-10T20:39:02.818+08:00| vmx| I125:   True VMX MSRs                     no
+2018-05-10T20:39:02.818+08:00| vmx| I125:   VMCS memory type                  WB
+2018-05-10T20:39:02.818+08:00| vmx| I125: Pin-Based VM-Execution Controls (0x0000003f00000016)
+2018-05-10T20:39:02.818+08:00| vmx| I125:   External-interrupt exiting     {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   NMI exiting                    {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   Virtual NMIs                   {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   Activate VMX-preemption timer  { 0 }
+2018-05-10T20:39:02.818+08:00| vmx| I125:   Process posted interrupts      { 0 }
+2018-05-10T20:39:02.818+08:00| vmx| I125: Primary Processor-Based VM-Execution Controls (0xf7f9fffe0401e172)
+2018-05-10T20:39:02.818+08:00| vmx| I125:   Interrupt-window exiting       {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   Use TSC offsetting             {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   HLT exiting                    {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   INVLPG exiting                 {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   MWAIT exiting                  {0,1}
+2018-05-10T20:39:02.818+08:00| vmx| I125:   RDPMC exiting                  {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   RDTSC exiting                  {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   CR3-load exiting               { 1 }
+2018-05-10T20:39:02.819+08:00| vmx| I125:   CR3-store exiting              { 1 }
+2018-05-10T20:39:02.819+08:00| vmx| I125:   CR8-load exiting               {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   CR8-store exiting              {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   Use TPR shadow                 {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   NMI-window exiting             {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   MOV-DR exiting                 {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   Unconditional I/O exiting      {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   Use I/O bitmaps                {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   Monitor trap flag              { 0 }
+2018-05-10T20:39:02.819+08:00| vmx| I125:   Use MSR bitmaps                {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   MONITOR exiting                {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   PAUSE exiting                  {0,1}
+2018-05-10T20:39:02.819+08:00| vmx| I125:   Activate secondary controls    {0,1}
+2018-05-10T20:39:02.820+08:00| vmx| I125: Secondary Processor-Based VM-Execution Controls (0x0000004100000000)
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Virtualize APIC accesses       {0,1}
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Enable EPT                     { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Descriptor-table exiting       { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Enable RDTSCP                  { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Virtualize x2APIC mode         { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Enable VPID                    { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   WBINVD exiting                 {0,1}
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Unrestricted guest             { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   APIC-register virtualization   { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Virtual-interrupt delivery     { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   PAUSE-loop exiting             { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   RDRAND exiting                 { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Enable INVPCID                 { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Enable VM Functions            { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Use VMCS shadowing             { 0 }
+2018-05-10T20:39:02.820+08:00| vmx| I125:   Enable ENCLS/ENCLU             { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   RDSEED exiting                 { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   EPT-violation #VE              { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Enable XSAVES/XRSTORS          { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125: VM-Exit Controls (0x0003ffff00036dff)
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Save debug controls            { 1 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Host address-space size        {0,1}
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Load IA32_PERF_GLOBAL_CTRL     {0,1}
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Acknowledge interrupt on exit  {0,1}
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Save IA32_PAT                  { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Load IA32_PAT                  { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Save IA32_EFER                 { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Load IA32_EFER                 { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Save VMX-preemption timer      { 0 }
+2018-05-10T20:39:02.821+08:00| vmx| I125: VM-Entry Controls (0x00003fff000011ff)
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Load debug controls            { 1 }
+2018-05-10T20:39:02.821+08:00| vmx| I125:   IA-32e mode guest              {0,1}
+2018-05-10T20:39:02.821+08:00| vmx| I125:   Entry to SMM                   {0,1}
+2018-05-10T20:39:02.822+08:00| vmx| I125:   Deactivate dual-monitor mode   {0,1}
+2018-05-10T20:39:02.822+08:00| vmx| I125:   Load IA32_PERF_GLOBAL_CTRL     {0,1}
+2018-05-10T20:39:02.822+08:00| vmx| I125:   Load IA32_PAT                  { 0 }
+2018-05-10T20:39:02.822+08:00| vmx| I125:   Load IA32_EFER                 { 0 }
+2018-05-10T20:39:02.822+08:00| vmx| I125: VPID and EPT Capabilities (0x0000000000000000)
+2018-05-10T20:39:02.822+08:00| vmx| I125:   R=0/W=0/X=1                       no
+2018-05-10T20:39:02.822+08:00| vmx| I125:   Page-walk length 3                no
+2018-05-10T20:39:02.822+08:00| vmx| I125:   EPT memory type WB                no
+2018-05-10T20:39:02.822+08:00| vmx| I125:   2MB super-page                    no
+2018-05-10T20:39:02.822+08:00| vmx| I125:   1GB super-page                    no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   INVEPT support                    no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   Access & Dirty Bits               no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   Type 1 INVEPT                     no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   Type 2 INVEPT                     no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   INVVPID support                   no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   Type 0 INVVPID                    no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   Type 1 INVVPID                    no
+2018-05-10T20:39:02.823+08:00| vmx| I125:   Type 2 INVVPID                    no
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Type 3 INVVPID                    no
+2018-05-10T20:39:02.824+08:00| vmx| I125: Miscellaneous VMX Data (0x00000000000403c0)
+2018-05-10T20:39:02.824+08:00| vmx| I125:   TSC to preemption timer ratio      0
+2018-05-10T20:39:02.824+08:00| vmx| I125:   VM-Exit saves EFER.LMA            no
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Activity State HLT               yes
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Activity State shutdown          yes
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Activity State wait-for-SIPI     yes
+2018-05-10T20:39:02.824+08:00| vmx| I125:   CR3 targets supported              4
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Maximum MSR list size            512
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Allow all VMWRITEs                no
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Allow zero instruction length     no
+2018-05-10T20:39:02.824+08:00| vmx| I125:   MSEG revision ID                   0
+2018-05-10T20:39:02.824+08:00| vmx| I125: VMX-Fixed Bits in CR0 (0x0000000080000021/0x00000000ffffffff)
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Fixed to 0        0xffffffff00000000
+2018-05-10T20:39:02.824+08:00| vmx| I125:   Fixed to 1        0x0000000080000021
+2018-05-10T20:39:02.825+08:00| vmx| I125:   Variable          0x000000007fffffde
+2018-05-10T20:39:02.825+08:00| vmx| I125: VMX-Fixed Bits in CR4 (0x0000000000002000/0x00000000000467ff)
+2018-05-10T20:39:02.825+08:00| vmx| I125:   Fixed to 0        0xfffffffffffb9800
+2018-05-10T20:39:02.825+08:00| vmx| I125:   Fixed to 1        0x0000000000002000
+2018-05-10T20:39:02.825+08:00| vmx| I125:   Variable          0x00000000000447ff
+2018-05-10T20:39:02.825+08:00| vmx| I125: VMCS Enumeration (0x000000000000002c)
+2018-05-10T20:39:02.825+08:00| vmx| I125:   Highest index                   0x16
+2018-05-10T20:39:02.825+08:00| vmx| I125: VM Functions (0x0000000000000000)
+2018-05-10T20:39:02.825+08:00| vmx| I125: hostCpuFeatures = 0x9bc
+2018-05-10T20:39:02.825+08:00| vmx| I125: hostNumGenPerfCounters = 2
+2018-05-10T20:39:02.825+08:00| vmx| I125: hostNumFixedPerfCounters = 3
+2018-05-10T20:39:02.825+08:00| vmx| I125: hostPerfCtrArch = 2
+2018-05-10T20:39:02.826+08:00| vmx| I125: MONITOR MODE: allowed modes          : BT32 HV
+2018-05-10T20:39:02.826+08:00| vmx| I125: MONITOR MODE: user requested modes   : BT32 HV HWMMU
+2018-05-10T20:39:02.826+08:00| vmx| I125: MONITOR MODE: guestOS preferred modes: BT32 HWMMU HV
+2018-05-10T20:39:02.826+08:00| vmx| I125: MONITOR MODE: filtered list          : BT32 HV
+2018-05-10T20:39:02.826+08:00| vmx| I125: HV Settings: virtual exec = 'dynamic'; virtual mmu = 'software'
+2018-05-10T20:39:02.834+08:00| vmx| I125: OvhdMem_PowerOn: initial admission: paged    73915 nonpaged     5667 anonymous     7016
+2018-05-10T20:39:02.834+08:00| vmx| I125: VMMEM: Initial Reservation: 338MB (MainMem=16MB)
+2018-05-10T20:39:02.834+08:00| vmx| I125: MemSched_PowerOn: balloon minGuestSize 3276 (80% of min required size 4096)
+2018-05-10T20:39:02.834+08:00| vmx| I125: MemSched: reserved mem (in MB) min 128 max 3360 recommended 3360
+2018-05-10T20:39:02.834+08:00| vmx| I125: MemSched: pg 73915 np 5667 anon 7016 mem 4096
+2018-05-10T20:39:02.834+08:00| vmx| I125: MemSched: numvm 1 locked pages: num 0 max 851968
+2018-05-10T20:39:02.835+08:00| vmx| I125: MemSched: locked Page Limit: host 915991 config 860160 dynam -1
+2018-05-10T20:39:02.835+08:00| vmx| I125: MemSched: minmempct 50 minalloc 0 admitted 1
+2018-05-10T20:39:02.835+08:00| vmx| A100: ConfigDB: Setting numa.autosize.vcpu.maxPerVirtualNode = "1"
+2018-05-10T20:39:02.835+08:00| vmx| A100: ConfigDB: Setting numa.autosize.cookie = "10001"
+2018-05-10T20:39:03.034+08:00| vmx| I125: LICENSE: Running unlicensed VMX (VMware Player)
+2018-05-10T20:39:03.035+08:00| vthread-5| I125: VTHREAD start thread 5 "vthread-5" tid 8954
+2018-05-10T20:39:03.037+08:00| vmx| I125: PolicyVMXFindPolicyKey: policy file does not exist.
+2018-05-10T20:39:03.039+08:00| vmx| I125: PolicyVMXFindPolicyKey: policy file does not exist.
+2018-05-10T20:39:03.041+08:00| vmx| W115: VProbes facility is disabled.
+2018-05-10T20:39:03.041+08:00| vmx| W115: VProbes facility is disabled.
+2018-05-10T20:39:03.043+08:00| vmx| I125: ToolsISO: open of /usr/lib/vmware/isoimages/isoimages_manifest.txt.sig failed: Could not find the file
+2018-05-10T20:39:03.043+08:00| vmx| I125: ToolsISO: Unable to read signature file '/usr/lib/vmware/isoimages/isoimages_manifest.txt.sig', ignoring.
+2018-05-10T20:39:03.044+08:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file '/usr/lib/vmware/isoimages/isoimages_manifest.txt'
+2018-05-10T20:39:03.044+08:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2018-05-10T20:39:03.045+08:00| vmx| I125: Host IPI vectors: 0xfc 0xfb. Monitor IPI vector: 0xff, HV IPI vector: 0xf2
+2018-05-10T20:39:03.045+08:00| vmx| I125: Monitor_PowerOn: HostedVSMP skew tracking is disabled
+2018-05-10T20:39:03.046+08:00| vmx| I125: Monitor64_PowerOn()
+2018-05-10T20:39:03.047+08:00| vmx| I125: Loaded worldswitch: .wsBody64.  Size = 480.
+2018-05-10T20:39:03.047+08:00| vmx| I125: Successfully loaded worldswitch fault handlers from .switchNMI.  Size = 208.
+2018-05-10T20:39:03.047+08:00| vmx| I125: vmm64-modules: [vmm.vmm64, mmu-scratchas.vmm64, vprobe-none.vmm64, hv-vt.vmm64, gphys-sw.vmm64, callstack-none.vmm64, vmce-none.vmm64, vvtd-none.vmm64, guestIntegrity-none.vmm64, buslogic-buslogic.vmm64, {SharedAreaReservations} .shared_per_vm_vmx:0x40, {SharedInterVcpuVmxSection}, {SharedInterVcpuSection}, <MonSrcFile>, busLogicShared=0xfffffffffc0c6000, {UseUnwind}=0x0, hvLoadedAsAddr=0x1, useNPTAsAddr=0x0, numVCPUsAsAddr=0x1, busmemFrameSizeLog2AsAddr=0x4, busmemFrameSizeAsAddr=0x10, {rodataSize}=0x1b80f, {textAddr}=0xfffffffffc41c000, {textSize}=0xad1d3]
+2018-05-10T20:39:03.047+08:00| vmx| I125: vmm64-vcpus:  1
+2018-05-10T20:39:03.054+08:00| vmx| I125: KHZEstimate 2531000
+2018-05-10T20:39:03.054+08:00| vmx| I125: MHZEstimate 2531
+2018-05-10T20:39:03.054+08:00| vmx| I125: NumVCPUs 1
+2018-05-10T20:39:03.054+08:00| vmx| I125: Guest OS (20481) not supported for replay debugging.
+2018-05-10T20:39:03.057+08:00| vmx| I125: UUID: Unable to open /sys/firmware/efi/systab: No such file or directory
+2018-05-10T20:39:03.057+08:00| vmx| I125: UUID: Found _DMI_ signature.
+2018-05-10T20:39:03.057+08:00| vmx| I125: UUID: SMBIOS UUID is reported as 'b0 1c 46 80 4e 1f 11 df-80 42 b0 ed 41 10 94 54'.
+2018-05-10T20:39:03.058+08:00| vmx| I125: UUID: location-UUID is 56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3
+2018-05-10T20:39:03.058+08:00| vmx| I125: UUID: location-UUID is 56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3
+2018-05-10T20:39:03.059+08:00| vmx| I125: UUID: location-UUID is 56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3
+2018-05-10T20:39:03.059+08:00| vmx| I125: UUID: location-UUID is 56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3
+2018-05-10T20:39:03.060+08:00| vmx| I125: UUID: location-UUID is 56 4d 1c 5e 20 0c d4 5a-c1 72 3b 94 f3 8d b9 1e
+2018-05-10T20:39:03.060+08:00| vmx| I125: Msg_Question:
+2018-05-10T20:39:03.060+08:00| vmx| I125: [msg.uuid.altered] This virtual machine might have been moved or copied.
+2018-05-10T20:39:03.060+08:00| vmx| I125+ In order to configure certain management and networking features, VMware Player needs to know if this virtual machine was moved or copied. 
+2018-05-10T20:39:03.060+08:00| vmx| I125+ 
+2018-05-10T20:39:03.060+08:00| vmx| I125+ If you don't know, answer "I Co_pied It".
+2018-05-10T20:39:03.060+08:00| vmx| I125: 
+2018-05-10T20:39:03.061+08:00| vmx| I125: ----------------------------------------
+2018-05-10T20:39:04.562+08:00| vmx| I125: MsgQuestion: msg.uuid.altered reply=2
+2018-05-10T20:39:04.562+08:00| vmx| I125: UUID: Writing uuid.bios value: '56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3'
+2018-05-10T20:39:04.564+08:00| vmx| A100: ConfigDB: Setting uuid.bios = "56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3"
+2018-05-10T20:39:04.564+08:00| vmx| I125: UUID: Writing uuid.location value: '56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3'
+2018-05-10T20:39:04.564+08:00| vmx| A100: ConfigDB: Setting uuid.location = "56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3"
+2018-05-10T20:39:04.756+08:00| vmx| I125: AIOGNRC: numThreads=4 ide=1, scsi=0, passthru=1
+2018-05-10T20:39:04.756+08:00| vmx| I125: WORKER: Creating new group with numThreads=4 (4)
+2018-05-10T20:39:04.757+08:00| vmx| I125: VTHREAD pthread_setschedparam failed: Invalid argument
+2018-05-10T20:39:04.757+08:00| WT| I125: VTHREAD start thread 6 "WT" tid 8955
+2018-05-10T20:39:04.758+08:00| vmx| I125: WORKER: Creating new group with numThreads=1 (5)
+2018-05-10T20:39:04.758+08:00| vmx| I125: MainMem: CPT Host WZ=0 PF=16 D=0
+2018-05-10T20:39:04.758+08:00| vmx| I125: MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2018-05-10T20:39:04.758+08:00| vmem| I125: VTHREAD start thread 7 "vmem" tid 8956
+2018-05-10T20:39:04.759+08:00| vmem| I125: UUID: location-UUID is 56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3
+2018-05-10T20:39:04.764+08:00| vmx| I125: MainMem: Opened paging file, '/tmp/vmware-dts/564dd534-7ad5-f8df-6a4e-3d8076b0f2f3/vmem' (swap).
+2018-05-10T20:39:04.764+08:00| vmx| I125: MStat: Creating Stat vm.uptime
+2018-05-10T20:39:04.764+08:00| vmx| I125: MStat: Creating Stat vm.suspendTime
+2018-05-10T20:39:04.764+08:00| vmx| I125: MStat: Creating Stat vm.powerOnTimeStamp
+2018-05-10T20:39:04.764+08:00| vmx| I125: VMXAIOMGR: Using: simple=Generic unbuf=Generic
+2018-05-10T20:39:04.771+08:00| vmx| I125: WORKER: Creating new group with numThreads=1 (6)
+2018-05-10T20:39:04.778+08:00| vmx| I125: WORKER: Creating new group with numThreads=16 (22)
+2018-05-10T20:39:04.779+08:00| vmx| A100: ConfigDB: Setting migrate.hostlog = "./MS-DOS-7ec128f6.hlog"
+2018-05-10T20:39:04.954+08:00| vmx| I125: MigrateResetStaleVMDBHostLog: Hostlog ./MS-DOS-7ec128f6.hlog doesn't exist.
+2018-05-10T20:39:04.955+08:00| vmx| I125: MigrateBusMemPrealloc: BusMem preallocation begins.
+2018-05-10T20:39:04.955+08:00| vmx| I125: MigrateBusMemPrealloc: BusMem preallocation completes.
+2018-05-10T20:39:04.955+08:00| vmx| I125: TimeTracker host to guest rate conversion 1926469546 @ 2531000000Hz -> 0 @ 2531000000Hz
+2018-05-10T20:39:04.956+08:00| vmx| I125: TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -1926469546
+2018-05-10T20:39:04.956+08:00| vmx| I125: Disabling TSC scaling since host does not support it.
+2018-05-10T20:39:04.956+08:00| vmx| I125: TSC offsetting enabled.
+2018-05-10T20:39:04.956+08:00| vmx| I125: timeTracker.globalProgressMaxAllowanceMS: 2000
+2018-05-10T20:39:04.956+08:00| vmx| I125: timeTracker.globalProgressToAllowanceNS: 1000
+2018-05-10T20:39:04.958+08:00| vmx| A100: ConfigDB: Setting ide0:0.redo = ""
+2018-05-10T20:39:04.958+08:00| vmx| I125: DISK: OPEN ide0:0 '/media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmdk' persistent R[]
+2018-05-10T20:39:04.971+08:00| vmx| I125: DISKLIB-DSCPTR: Opened [0]: "hdc-0.11.img" 0 (0x1a)
+2018-05-10T20:39:04.971+08:00| vmx| I125: DISKLIB-LINK  : Opened '/media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmdk' (0x1a): monolithicFlat, 121967 sectors / 59.6 MB.
+2018-05-10T20:39:04.971+08:00| vmx| I125: DISKLIB-LIB   : Opened "/media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmdk" (flags 0x1a, type monolithicFlat).
+2018-05-10T20:39:04.971+08:00| vmx| I125: DiskGetGeometry: Reading of disk partition table
+2018-05-10T20:39:04.971+08:00| vthread-7| I125: VTHREAD start thread 7 "vthread-7" tid 8957
+2018-05-10T20:39:04.971+08:00| vmx| I125: DISK: Disk '/media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmdk' has no UUID
+2018-05-10T20:39:04.972+08:00| vmx| I125: DISK: OPEN '/media/dts/word/git/linux_src/linux-0.11-040305-VMware/MS-DOS.vmdk' Geo (120/16/63) BIOS Geo (0/0/0)
+2018-05-10T20:39:04.972+08:00| vmx| I125: DISK: Opening disks took 15 ms.
+2018-05-10T20:39:04.973+08:00| vmx| I125: VUsb powered on, but no USB controllers.
+2018-05-10T20:39:04.973+08:00| vmx| I125: MKS PowerOn
+2018-05-10T20:39:04.974+08:00| mks| I125: VTHREAD start thread 2 "mks" tid 8958
+2018-05-10T20:39:04.974+08:00| mks| I125: MKS thread is alive
+2018-05-10T20:39:04.982+08:00| mks| I125: SOUNDLIB: SoundLib_CreatePulseBackend: waiting for connection to Pulse server
+2018-05-10T20:39:04.984+08:00| mks| I125: MKS-RenderMain: RenderMain: PowerOn allowed MKSBasicOps 
+2018-05-10T20:39:04.984+08:00| mks| I125: MKS-RenderMain: Starting MKSBasicOps
+2018-05-10T20:39:04.985+08:00| mks| I125: KHBKL: Unable to parse keystring at: ''
+2018-05-10T20:39:04.985+08:00| mks| I125: MKS-RemoteMgr: Set default display name: LINUX-TEST
+2018-05-10T20:39:04.985+08:00| mks| I125: MKS-RemoteMgr: Loading VNC Configuration from VM config file
+2018-05-10T20:39:04.988+08:00| mks| I125: MKS-X: XI major version 2, minor version 3
+2018-05-10T20:39:04.989+08:00| mks| I125: XINFO X fd is 19
+2018-05-10T20:39:04.990+08:00| mks| I125: XINFO depth 24 bpp 32 class 4
+2018-05-10T20:39:04.990+08:00| mks| I125: XINFO  ServerVendor: "The X.Org Foundation"
+2018-05-10T20:39:04.990+08:00| mks| I125: XINFO VendorRelease: 11804000
+2018-05-10T20:39:04.992+08:00| mks| I125: XINFO XKB available, version 1.0
+2018-05-10T20:39:04.992+08:00| mks| I125: XINFO XTEST available, version 2.2
+2018-05-10T20:39:04.993+08:00| mks| I125: XINFO Xinerama available
+2018-05-10T20:39:04.993+08:00| mks| I125: XKeymap_PowerOn: use evdev keycode mapping.
+2018-05-10T20:39:04.994+08:00| vmx| I125: VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks
+2018-05-10T20:39:04.994+08:00| vmx| I125: VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 2 ticks, dontClusterSize is 128
+2018-05-10T20:39:04.994+08:00| vmx| I125: Chipset version: 0
+2018-05-10T20:39:04.996+08:00| vmx| I125: memoryHotplug: No PCI hole remapping.  Hot add and hot remove unsupported
+2018-05-10T20:39:04.997+08:00| vmx| I125: DISKUTIL: ide0:0 : capacity=121967 logical sector size=512
+2018-05-10T20:39:04.997+08:00| vmx| I125: SCSI DEVICE (ide0:0): Computed value of ide0:0.useBounceBuffers: default
+2018-05-10T20:39:04.997+08:00| vmx| I125: DISKUTIL: ide0:0 : capacity=121967 logical sector size=512
+2018-05-10T20:39:04.997+08:00| vmx| I125: DISKUTIL: ide0:0 : geometry=120/16/63
+2018-05-10T20:39:04.997+08:00| vmx| I125: SCSI DEVICE (ide1:0): Computed value of ide1:0.useBounceBuffers: default
+2018-05-10T20:39:04.997+08:00| vmx| I125: DISKUTIL: ide1:0 : capacity=0 logical sector size=2048
+2018-05-10T20:39:04.997+08:00| vmx| I125: DISKUTIL: ide1:0 : geometry=0/0/0
+2018-05-10T20:39:04.997+08:00| vmx| I125: SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2018-05-10T20:39:04.998+08:00| vmx| I125: SVGA: Maximum display topology 3840x1920.
+2018-05-10T20:39:04.998+08:00| vmx| I125: SVGA-GFB: Initial gfbSize=16777216
+2018-05-10T20:39:04.999+08:00| vmx| I125: SVGA: Number of displays 2
+2018-05-10T20:39:04.999+08:00| vmx| I125: SVGA: Maximum display topology 3840x1920.
+2018-05-10T20:39:04.999+08:00| vmx| I125: SVGA: Truncated maximum resolution to VRAM size: 16777216 bytes VRAM, 2360x1773 Max Resolution
+2018-05-10T20:39:04.999+08:00| vmx| I125: SVGA: FIFO capabilities 0x0000007f
+2018-05-10T20:39:04.999+08:00| vmx| I125: SVGA: Device capabilities 0x000b83e2
+2018-05-10T20:39:05.000+08:00| vmx| I125: SVGA3dCaps: host, at power on: 3d disabled
+2018-05-10T20:39:05.000+08:00| vmx| I125:   cap[  0]: 0x00000000 (3D)
+2018-05-10T20:39:05.000+08:00| vmx| I125:   cap[  1]: 0x00000000 (MAX_LIGHTS)
+2018-05-10T20:39:05.000+08:00| vmx| I125:   cap[  2]: 0x00000000 (MAX_TEXTURES)
+2018-05-10T20:39:05.001+08:00| vmx| I125:   cap[  3]: 0x00000000 (MAX_CLIP_PLANES)
+2018-05-10T20:39:05.001+08:00| vmx| I125:   cap[  4]: 0x00000000 (VERTEX_SHADER_VERSION)
+2018-05-10T20:39:05.001+08:00| vmx| I125:   cap[  5]: 0x00000000 (VERTEX_SHADER)
+2018-05-10T20:39:05.001+08:00| vmx| I125:   cap[  6]: 0x00000000 (FRAGMENT_SHADER_VERSION)
+2018-05-10T20:39:05.002+08:00| vmx| I125:   cap[  7]: 0x00000000 (FRAGMENT_SHADER)
+2018-05-10T20:39:05.002+08:00| vmx| I125:   cap[  8]: 0x00000000 (MAX_RENDER_TARGETS)
+2018-05-10T20:39:05.002+08:00| vmx| I125:   cap[  9]: 0x00000000 (S23E8_TEXTURES)
+2018-05-10T20:39:05.003+08:00| vmx| I125:   cap[ 10]: 0x00000000 (S10E5_TEXTURES)
+2018-05-10T20:39:05.003+08:00| vmx| I125:   cap[ 11]: 0x00000000 (MAX_FIXED_VERTEXBLEND)
+2018-05-10T20:39:05.003+08:00| vmx| I125:   cap[ 12]: 0x00000000 (D16_BUFFER_FORMAT)
+2018-05-10T20:39:05.003+08:00| vmx| I125:   cap[ 13]: 0x00000000 (D24S8_BUFFER_FORMAT)
+2018-05-10T20:39:05.004+08:00| vmx| I125:   cap[ 14]: 0x00000000 (D24X8_BUFFER_FORMAT)
+2018-05-10T20:39:05.004+08:00| vmx| I125:   cap[ 15]: 0x00000000 (QUERY_TYPES)
+2018-05-10T20:39:05.004+08:00| vmx| I125:   cap[ 16]: 0x00000000 (TEXTURE_GRADIENT_SAMPLING)
+2018-05-10T20:39:05.005+08:00| vmx| I125:   cap[ 17]:   0.000000 (MAX_POINT_SIZE)
+2018-05-10T20:39:05.005+08:00| vmx| I125:   cap[ 18]: 0x00000000 (MAX_SHADER_TEXTURES)
+2018-05-10T20:39:05.005+08:00| vmx| I125:   cap[ 19]: 0x00000000 (MAX_TEXTURE_WIDTH)
+2018-05-10T20:39:05.006+08:00| vmx| I125:   cap[ 20]: 0x00000000 (MAX_TEXTURE_HEIGHT)
+2018-05-10T20:39:05.006+08:00| vmx| I125:   cap[ 21]: 0x00000000 (MAX_VOLUME_EXTENT)
+2018-05-10T20:39:05.006+08:00| vmx| I125:   cap[ 22]: 0x00000000 (MAX_TEXTURE_REPEAT)
+2018-05-10T20:39:05.007+08:00| vmx| I125:   cap[ 23]: 0x00000000 (MAX_TEXTURE_ASPECT_RATIO)
+2018-05-10T20:39:05.007+08:00| vmx| I125:   cap[ 24]: 0x00000000 (MAX_TEXTURE_ANISOTROPY)
+2018-05-10T20:39:05.007+08:00| vmx| I125:   cap[ 25]: 0x00000000 (MAX_PRIMITIVE_COUNT)
+2018-05-10T20:39:05.007+08:00| vmx| I125:   cap[ 26]: 0x00000000 (MAX_VERTEX_INDEX)
+2018-05-10T20:39:05.008+08:00| vmx| I125:   cap[ 27]: 0x00000000 (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2018-05-10T20:39:05.008+08:00| vmx| I125:   cap[ 28]: 0x00000000 (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2018-05-10T20:39:05.008+08:00| vmx| I125:   cap[ 29]: 0x00000000 (MAX_VERTEX_SHADER_TEMPS)
+2018-05-10T20:39:05.009+08:00| vmx| I125:   cap[ 30]: 0x00000000 (MAX_FRAGMENT_SHADER_TEMPS)
+2018-05-10T20:39:05.009+08:00| vmx| I125:   cap[ 31]: 0x00000000 (TEXTURE_OPS)
+2018-05-10T20:39:05.009+08:00| vmx| I125:   cap[ 32]: 0x00000000 (SURFACEFMT_X8R8G8B8)
+2018-05-10T20:39:05.009+08:00| vmx| I125:   cap[ 33]: 0x00000000 (SURFACEFMT_A8R8G8B8)
+2018-05-10T20:39:05.010+08:00| vmx| I125:   cap[ 34]: 0x00000000 (SURFACEFMT_A2R10G10B10)
+2018-05-10T20:39:05.010+08:00| vmx| I125:   cap[ 35]: 0x00000000 (SURFACEFMT_X1R5G5B5)
+2018-05-10T20:39:05.010+08:00| vmx| I125:   cap[ 36]: 0x00000000 (SURFACEFMT_A1R5G5B5)
+2018-05-10T20:39:05.011+08:00| vmx| I125:   cap[ 37]: 0x00000000 (SURFACEFMT_A4R4G4B4)
+2018-05-10T20:39:05.011+08:00| vmx| I125:   cap[ 38]: 0x00000000 (SURFACEFMT_R5G6B5)
+2018-05-10T20:39:05.011+08:00| vmx| I125:   cap[ 39]: 0x00000000 (SURFACEFMT_LUMINANCE16)
+2018-05-10T20:39:05.012+08:00| vmx| I125:   cap[ 40]: 0x00000000 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2018-05-10T20:39:05.012+08:00| vmx| I125:   cap[ 41]: 0x00000000 (SURFACEFMT_ALPHA8)
+2018-05-10T20:39:05.012+08:00| vmx| I125:   cap[ 42]: 0x00000000 (SURFACEFMT_LUMINANCE8)
+2018-05-10T20:39:05.012+08:00| vmx| I125:   cap[ 43]: 0x00000000 (SURFACEFMT_Z_D16)
+2018-05-10T20:39:05.013+08:00| vmx| I125:   cap[ 44]: 0x00000000 (SURFACEFMT_Z_D24S8)
+2018-05-10T20:39:05.013+08:00| vmx| I125:   cap[ 45]: 0x00000000 (SURFACEFMT_Z_D24X8)
+2018-05-10T20:39:05.013+08:00| vmx| I125:   cap[ 46]: 0x00000000 (SURFACEFMT_DXT1)
+2018-05-10T20:39:05.014+08:00| vmx| I125:   cap[ 47]: 0x00000000 (SURFACEFMT_DXT2)
+2018-05-10T20:39:05.014+08:00| vmx| I125:   cap[ 48]: 0x00000000 (SURFACEFMT_DXT3)
+2018-05-10T20:39:05.014+08:00| vmx| I125:   cap[ 49]: 0x00000000 (SURFACEFMT_DXT4)
+2018-05-10T20:39:05.015+08:00| vmx| I125:   cap[ 50]: 0x00000000 (SURFACEFMT_DXT5)
+2018-05-10T20:39:05.015+08:00| vmx| I125:   cap[ 51]: 0x00000000 (SURFACEFMT_BUMPX8L8V8U8)
+2018-05-10T20:39:05.015+08:00| vmx| I125:   cap[ 52]: 0x00000000 (SURFACEFMT_A2W10V10U10)
+2018-05-10T20:39:05.016+08:00| vmx| I125:   cap[ 53]: 0x00000000 (SURFACEFMT_BUMPU8V8)
+2018-05-10T20:39:05.016+08:00| vmx| I125:   cap[ 54]: 0x00000000 (SURFACEFMT_Q8W8V8U8)
+2018-05-10T20:39:05.016+08:00| vmx| I125:   cap[ 55]: 0x00000000 (SURFACEFMT_CxV8U8)
+2018-05-10T20:39:05.017+08:00| vmx| I125:   cap[ 56]: 0x00000000 (SURFACEFMT_R_S10E5)
+2018-05-10T20:39:05.017+08:00| vmx| I125:   cap[ 57]: 0x00000000 (SURFACEFMT_R_S23E8)
+2018-05-10T20:39:05.017+08:00| vmx| I125:   cap[ 58]: 0x00000000 (SURFACEFMT_RG_S10E5)
+2018-05-10T20:39:05.018+08:00| vmx| I125:   cap[ 59]: 0x00000000 (SURFACEFMT_RG_S23E8)
+2018-05-10T20:39:05.018+08:00| vmx| I125:   cap[ 60]: 0x00000000 (SURFACEFMT_ARGB_S10E5)
+2018-05-10T20:39:05.018+08:00| vmx| I125:   cap[ 61]: 0x00000000 (SURFACEFMT_ARGB_S23E8)
+2018-05-10T20:39:05.019+08:00| vmx| I125:   cap[ 62]: 0x00000000 (MISSING62)
+2018-05-10T20:39:05.019+08:00| vmx| I125:   cap[ 63]: 0x00000000 (MAX_VERTEX_SHADER_TEXTURES)
+2018-05-10T20:39:05.019+08:00| vmx| I125:   cap[ 64]: 0x00000000 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2018-05-10T20:39:05.019+08:00| vmx| I125:   cap[ 65]: 0x00000000 (SURFACEFMT_V16U16)
+2018-05-10T20:39:05.020+08:00| vmx| I125:   cap[ 66]: 0x00000000 (SURFACEFMT_G16R16)
+2018-05-10T20:39:05.020+08:00| vmx| I125:   cap[ 67]: 0x00000000 (SURFACEFMT_A16B16G16R16)
+2018-05-10T20:39:05.020+08:00| vmx| I125:   cap[ 68]: 0x00000000 (SURFACEFMT_UYVY)
+2018-05-10T20:39:05.021+08:00| vmx| I125:   cap[ 69]: 0x00000000 (SURFACEFMT_YUY2)
+2018-05-10T20:39:05.021+08:00| vmx| I125:   cap[ 70]: 0x00000000 (MULTISAMPLE_NONMASKABLESAMPLES)
+2018-05-10T20:39:05.021+08:00| vmx| I125:   cap[ 71]: 0x00000000 (MULTISAMPLE_MASKABLESAMPLES)
+2018-05-10T20:39:05.022+08:00| vmx| I125:   cap[ 72]: 0x00000000 (ALPHATOCOVERAGE)
+2018-05-10T20:39:05.022+08:00| vmx| I125:   cap[ 73]: 0x00000000 (SUPERSAMPLE)
+2018-05-10T20:39:05.022+08:00| vmx| I125:   cap[ 74]: 0x00000000 (AUTOGENMIPMAPS)
+2018-05-10T20:39:05.022+08:00| vmx| I125:   cap[ 75]: 0x00000000 (SURFACEFMT_NV12)
+2018-05-10T20:39:05.023+08:00| vmx| I125:   cap[ 76]: 0x00000000 (SURFACEFMT_AYUV)
+2018-05-10T20:39:05.023+08:00| vmx| I125:   cap[ 77]: 0x00000000 (MAX_CONTEXT_IDS)
+2018-05-10T20:39:05.023+08:00| vmx| I125:   cap[ 78]: 0x00000000 (MAX_SURFACE_IDS)
+2018-05-10T20:39:05.024+08:00| vmx| I125:   cap[ 79]: 0x00000000 (SURFACEFMT_Z_DF16)
+2018-05-10T20:39:05.024+08:00| vmx| I125:   cap[ 80]: 0x00000000 (SURFACEFMT_Z_DF24)
+2018-05-10T20:39:05.024+08:00| vmx| I125:   cap[ 81]: 0x00000000 (SURFACEFMT_Z_D24S8_INT)
+2018-05-10T20:39:05.025+08:00| vmx| I125:   cap[ 82]: 0x00000000 (SURFACEFMT_ATI1)
+2018-05-10T20:39:05.025+08:00| vmx| I125:   cap[ 83]: 0x00000000 (SURFACEFMT_ATI2)
+2018-05-10T20:39:05.025+08:00| vmx| I125:   cap[ 84]: 0x00000000 (DEAD1)
+2018-05-10T20:39:05.025+08:00| vmx| I125:   cap[ 85]: 0x00000000 (VIDEO_DECODE)
+2018-05-10T20:39:05.026+08:00| vmx| I125:   cap[ 86]: 0x00000000 (VIDEO_PROCESS)
+2018-05-10T20:39:05.026+08:00| vmx| I125:   cap[ 87]: 0x00000000 (LINE_AA)
+2018-05-10T20:39:05.026+08:00| vmx| I125:   cap[ 88]: 0x00000000 (LINE_STIPPLE)
+2018-05-10T20:39:05.027+08:00| vmx| I125:   cap[ 89]:   0.000000 (MAX_LINE_WIDTH)
+2018-05-10T20:39:05.027+08:00| vmx| I125:   cap[ 90]:   0.000000 (MAX_AA_LINE_WIDTH)
+2018-05-10T20:39:05.027+08:00| vmx| I125:   cap[ 91]: 0x00000000 (SURFACEFMT_YV12)
+2018-05-10T20:39:05.028+08:00| vmx| I125:   cap[ 92]: 0x00000000 (LOGICOPS)
+2018-05-10T20:39:05.028+08:00| vmx| I125:   cap[ 93]: 0x00000000 (TS_COLOR_KEY)
+2018-05-10T20:39:05.028+08:00| vmx| I125:   cap[ 94]: 0x00000000 (DEAD2)
+2018-05-10T20:39:05.029+08:00| vmx| I125:   cap[ 95]: 0x00000000 (DXCONTEXT)
+2018-05-10T20:39:05.029+08:00| vmx| I125:   cap[ 96]: 0x00000000 (MAX_TEXTURE_ARRAY_SIZE)
+2018-05-10T20:39:05.029+08:00| vmx| I125:   cap[ 97]: 0x00000000 (DX_MAX_VERTEXBUFFERS)
+2018-05-10T20:39:05.030+08:00| vmx| I125:   cap[ 98]: 0x00000000 (DX_MAX_CONSTANT_BUFFERS)
+2018-05-10T20:39:05.030+08:00| vmx| I125:   cap[ 99]: 0x00000000 (DX_PROVOKING_VERTEX)
+2018-05-10T20:39:05.030+08:00| vmx| I125:   cap[100]: 0x00000000 (DXFMT_X8R8G8B8)
+2018-05-10T20:39:05.030+08:00| vmx| I125:   cap[101]: 0x00000000 (DXFMT_A8R8G8B8)
+2018-05-10T20:39:05.031+08:00| vmx| I125:   cap[102]: 0x00000000 (DXFMT_R5G6B5)
+2018-05-10T20:39:05.031+08:00| vmx| I125:   cap[103]: 0x00000000 (DXFMT_X1R5G5B5)
+2018-05-10T20:39:05.031+08:00| vmx| I125:   cap[104]: 0x00000000 (DXFMT_A1R5G5B5)
+2018-05-10T20:39:05.032+08:00| vmx| I125:   cap[105]: 0x00000000 (DXFMT_A4R4G4B4)
+2018-05-10T20:39:05.032+08:00| vmx| I125:   cap[106]: 0x00000000 (DXFMT_Z_D32)
+2018-05-10T20:39:05.032+08:00| vmx| I125:   cap[107]: 0x00000000 (DXFMT_Z_D16)
+2018-05-10T20:39:05.033+08:00| vmx| I125:   cap[108]: 0x00000000 (DXFMT_Z_D24S8)
+2018-05-10T20:39:05.033+08:00| vmx| I125:   cap[109]: 0x00000000 (DXFMT_Z_D15S1)
+2018-05-10T20:39:05.033+08:00| vmx| I125:   cap[110]: 0x00000000 (DXFMT_LUMINANCE8)
+2018-05-10T20:39:05.034+08:00| vmx| I125:   cap[111]: 0x00000000 (DXFMT_LUMINANCE4_ALPHA4)
+2018-05-10T20:39:05.034+08:00| vmx| I125:   cap[112]: 0x00000000 (DXFMT_LUMINANCE16)
+2018-05-10T20:39:05.034+08:00| vmx| I125:   cap[113]: 0x00000000 (DXFMT_LUMINANCE8_ALPHA8)
+2018-05-10T20:39:05.034+08:00| vmx| I125:   cap[114]: 0x00000000 (DXFMT_DXT1)
+2018-05-10T20:39:05.035+08:00| vmx| I125:   cap[115]: 0x00000000 (DXFMT_DXT2)
+2018-05-10T20:39:05.035+08:00| vmx| I125:   cap[116]: 0x00000000 (DXFMT_DXT3)
+2018-05-10T20:39:05.035+08:00| vmx| I125:   cap[117]: 0x00000000 (DXFMT_DXT4)
+2018-05-10T20:39:05.036+08:00| vmx| I125:   cap[118]: 0x00000000 (DXFMT_DXT5)
+2018-05-10T20:39:05.036+08:00| vmx| I125:   cap[119]: 0x00000000 (DXFMT_BUMPU8V8)
+2018-05-10T20:39:05.036+08:00| vmx| I125:   cap[120]: 0x00000000 (DXFMT_BUMPL6V5U5)
+2018-05-10T20:39:05.036+08:00| vmx| I125:   cap[121]: 0x00000000 (DXFMT_BUMPX8L8V8U8)
+2018-05-10T20:39:05.037+08:00| vmx| I125:   cap[122]: 0x00000000 (DXFMT_FORMAT_DEAD1)
+2018-05-10T20:39:05.037+08:00| vmx| I125:   cap[123]: 0x00000000 (DXFMT_ARGB_S10E5)
+2018-05-10T20:39:05.037+08:00| vmx| I125:   cap[124]: 0x00000000 (DXFMT_ARGB_S23E8)
+2018-05-10T20:39:05.038+08:00| vmx| I125:   cap[125]: 0x00000000 (DXFMT_A2R10G10B10)
+2018-05-10T20:39:05.038+08:00| vmx| I125:   cap[126]: 0x00000000 (DXFMT_V8U8)
+2018-05-10T20:39:05.038+08:00| vmx| I125:   cap[127]: 0x00000000 (DXFMT_Q8W8V8U8)
+2018-05-10T20:39:05.039+08:00| vmx| I125:   cap[128]: 0x00000000 (DXFMT_CxV8U8)
+2018-05-10T20:39:05.039+08:00| vmx| I125:   cap[129]: 0x00000000 (DXFMT_X8L8V8U8)
+2018-05-10T20:39:05.039+08:00| vmx| I125:   cap[130]: 0x00000000 (DXFMT_A2W10V10U10)
+2018-05-10T20:39:05.039+08:00| vmx| I125:   cap[131]: 0x00000000 (DXFMT_ALPHA8)
+2018-05-10T20:39:05.040+08:00| vmx| I125:   cap[132]: 0x00000000 (DXFMT_R_S10E5)
+2018-05-10T20:39:05.040+08:00| vmx| I125:   cap[133]: 0x00000000 (DXFMT_R_S23E8)
+2018-05-10T20:39:05.041+08:00| vmx| I125:   cap[134]: 0x00000000 (DXFMT_RG_S10E5)
+2018-05-10T20:39:05.041+08:00| vmx| I125:   cap[135]: 0x00000000 (DXFMT_RG_S23E8)
+2018-05-10T20:39:05.041+08:00| vmx| I125:   cap[136]: 0x00000000 (DXFMT_BUFFER)
+2018-05-10T20:39:05.042+08:00| vmx| I125:   cap[137]: 0x00000000 (DXFMT_Z_D24X8)
+2018-05-10T20:39:05.042+08:00| vmx| I125:   cap[138]: 0x00000000 (DXFMT_V16U16)
+2018-05-10T20:39:05.042+08:00| vmx| I125:   cap[139]: 0x00000000 (DXFMT_G16R16)
+2018-05-10T20:39:05.043+08:00| vmx| I125:   cap[140]: 0x00000000 (DXFMT_A16B16G16R16)
+2018-05-10T20:39:05.043+08:00| vmx| I125:   cap[141]: 0x00000000 (DXFMT_UYVY)
+2018-05-10T20:39:05.043+08:00| vmx| I125:   cap[142]: 0x00000000 (DXFMT_YUY2)
+2018-05-10T20:39:05.043+08:00| vmx| I125:   cap[143]: 0x00000000 (DXFMT_NV12)
+2018-05-10T20:39:05.044+08:00| vmx| I125:   cap[144]: 0x00000000 (DXFMT_AYUV)
+2018-05-10T20:39:05.044+08:00| vmx| I125:   cap[145]: 0x00000000 (DXFMT_R32G32B32A32_TYPELESS)
+2018-05-10T20:39:05.044+08:00| vmx| I125:   cap[146]: 0x00000000 (DXFMT_R32G32B32A32_UINT)
+2018-05-10T20:39:05.045+08:00| vmx| I125:   cap[147]: 0x00000000 (DXFMT_R32G32B32A32_SINT)
+2018-05-10T20:39:05.045+08:00| vmx| I125:   cap[148]: 0x00000000 (DXFMT_R32G32B32_TYPELESS)
+2018-05-10T20:39:05.045+08:00| vmx| I125:   cap[149]: 0x00000000 (DXFMT_R32G32B32_FLOAT)
+2018-05-10T20:39:05.046+08:00| vmx| I125:   cap[150]: 0x00000000 (DXFMT_R32G32B32_UINT)
+2018-05-10T20:39:05.046+08:00| vmx| I125:   cap[151]: 0x00000000 (DXFMT_R32G32B32_SINT)
+2018-05-10T20:39:05.046+08:00| vmx| I125:   cap[152]: 0x00000000 (DXFMT_R16G16B16A16_TYPELESS)
+2018-05-10T20:39:05.047+08:00| vmx| I125:   cap[153]: 0x00000000 (DXFMT_R16G16B16A16_UINT)
+2018-05-10T20:39:05.047+08:00| vmx| I125:   cap[154]: 0x00000000 (DXFMT_R16G16B16A16_SNORM)
+2018-05-10T20:39:05.047+08:00| vmx| I125:   cap[155]: 0x00000000 (DXFMT_R16G16B16A16_SINT)
+2018-05-10T20:39:05.048+08:00| vmx| I125:   cap[156]: 0x00000000 (DXFMT_R32G32_TYPELESS)
+2018-05-10T20:39:05.048+08:00| vmx| I125:   cap[157]: 0x00000000 (DXFMT_R32G32_UINT)
+2018-05-10T20:39:05.048+08:00| vmx| I125:   cap[158]: 0x00000000 (DXFMT_R32G32_SINT)
+2018-05-10T20:39:05.049+08:00| vmx| I125:   cap[159]: 0x00000000 (DXFMT_R32G8X24_TYPELESS)
+2018-05-10T20:39:05.049+08:00| vmx| I125:   cap[160]: 0x00000000 (DXFMT_D32_FLOAT_S8X24_UINT)
+2018-05-10T20:39:05.049+08:00| vmx| I125:   cap[161]: 0x00000000 (DXFMT_R32_FLOAT_X8X24_TYPELESS)
+2018-05-10T20:39:05.050+08:00| vmx| I125:   cap[162]: 0x00000000 (DXFMT_X32_TYPELESS_G8X24_UINT)
+2018-05-10T20:39:05.050+08:00| vmx| I125:   cap[163]: 0x00000000 (DXFMT_R10G10B10A2_TYPELESS)
+2018-05-10T20:39:05.050+08:00| vmx| I125:   cap[164]: 0x00000000 (DXFMT_R10G10B10A2_UINT)
+2018-05-10T20:39:05.050+08:00| vmx| I125:   cap[165]: 0x00000000 (DXFMT_R11G11B10_FLOAT)
+2018-05-10T20:39:05.051+08:00| vmx| I125:   cap[166]: 0x00000000 (DXFMT_R8G8B8A8_TYPELESS)
+2018-05-10T20:39:05.051+08:00| vmx| I125:   cap[167]: 0x00000000 (DXFMT_R8G8B8A8_UNORM)
+2018-05-10T20:39:05.051+08:00| vmx| I125:   cap[168]: 0x00000000 (DXFMT_R8G8B8A8_UNORM_SRGB)
+2018-05-10T20:39:05.052+08:00| vmx| I125:   cap[169]: 0x00000000 (DXFMT_R8G8B8A8_UINT)
+2018-05-10T20:39:05.052+08:00| vmx| I125:   cap[170]: 0x00000000 (DXFMT_R8G8B8A8_SINT)
+2018-05-10T20:39:05.052+08:00| vmx| I125:   cap[171]: 0x00000000 (DXFMT_R16G16_TYPELESS)
+2018-05-10T20:39:05.053+08:00| vmx| I125:   cap[172]: 0x00000000 (DXFMT_R16G16_UINT)
+2018-05-10T20:39:05.053+08:00| vmx| I125:   cap[173]: 0x00000000 (DXFMT_R16G16_SINT)
+2018-05-10T20:39:05.053+08:00| vmx| I125:   cap[174]: 0x00000000 (DXFMT_R32_TYPELESS)
+2018-05-10T20:39:05.054+08:00| vmx| I125:   cap[175]: 0x00000000 (DXFMT_D32_FLOAT)
+2018-05-10T20:39:05.054+08:00| vmx| I125:   cap[176]: 0x00000000 (DXFMT_R32_UINT)
+2018-05-10T20:39:05.054+08:00| vmx| I125:   cap[177]: 0x00000000 (DXFMT_R32_SINT)
+2018-05-10T20:39:05.055+08:00| vmx| I125:   cap[178]: 0x00000000 (DXFMT_R24G8_TYPELESS)
+2018-05-10T20:39:05.055+08:00| vmx| I125:   cap[179]: 0x00000000 (DXFMT_D24_UNORM_S8_UINT)
+2018-05-10T20:39:05.055+08:00| vmx| I125:   cap[180]: 0x00000000 (DXFMT_R24_UNORM_X8_TYPELESS)
+2018-05-10T20:39:05.056+08:00| vmx| I125:   cap[181]: 0x00000000 (DXFMT_X24_TYPELESS_G8_UINT)
+2018-05-10T20:39:05.056+08:00| vmx| I125:   cap[182]: 0x00000000 (DXFMT_R8G8_TYPELESS)
+2018-05-10T20:39:05.056+08:00| vmx| I125:   cap[183]: 0x00000000 (DXFMT_R8G8_UNORM)
+2018-05-10T20:39:05.056+08:00| vmx| I125:   cap[184]: 0x00000000 (DXFMT_R8G8_UINT)
+2018-05-10T20:39:05.057+08:00| vmx| I125:   cap[185]: 0x00000000 (DXFMT_R8G8_SINT)
+2018-05-10T20:39:05.057+08:00| vmx| I125:   cap[186]: 0x00000000 (DXFMT_R16_TYPELESS)
+2018-05-10T20:39:05.057+08:00| vmx| I125:   cap[187]: 0x00000000 (DXFMT_R16_UNORM)
+2018-05-10T20:39:05.058+08:00| vmx| I125:   cap[188]: 0x00000000 (DXFMT_R16_UINT)
+2018-05-10T20:39:05.058+08:00| vmx| I125:   cap[189]: 0x00000000 (DXFMT_R16_SNORM)
+2018-05-10T20:39:05.058+08:00| vmx| I125:   cap[190]: 0x00000000 (DXFMT_R16_SINT)
+2018-05-10T20:39:05.059+08:00| vmx| I125:   cap[191]: 0x00000000 (DXFMT_R8_TYPELESS)
+2018-05-10T20:39:05.059+08:00| vmx| I125:   cap[192]: 0x00000000 (DXFMT_R8_UNORM)
+2018-05-10T20:39:05.059+08:00| vmx| I125:   cap[193]: 0x00000000 (DXFMT_R8_UINT)
+2018-05-10T20:39:05.060+08:00| vmx| I125:   cap[194]: 0x00000000 (DXFMT_R8_SNORM)
+2018-05-10T20:39:05.060+08:00| vmx| I125:   cap[195]: 0x00000000 (DXFMT_R8_SINT)
+2018-05-10T20:39:05.060+08:00| vmx| I125:   cap[196]: 0x00000000 (DXFMT_P8)
+2018-05-10T20:39:05.061+08:00| vmx| I125:   cap[197]: 0x00000000 (DXFMT_R9G9B9E5_SHAREDEXP)
+2018-05-10T20:39:05.061+08:00| vmx| I125:   cap[198]: 0x00000000 (DXFMT_R8G8_B8G8_UNORM)
+2018-05-10T20:39:05.061+08:00| vmx| I125:   cap[199]: 0x00000000 (DXFMT_G8R8_G8B8_UNORM)
+2018-05-10T20:39:05.061+08:00| vmx| I125:   cap[200]: 0x00000000 (DXFMT_BC1_TYPELESS)
+2018-05-10T20:39:05.062+08:00| vmx| I125:   cap[201]: 0x00000000 (DXFMT_BC1_UNORM_SRGB)
+2018-05-10T20:39:05.062+08:00| vmx| I125:   cap[202]: 0x00000000 (DXFMT_BC2_TYPELESS)
+2018-05-10T20:39:05.062+08:00| vmx| I125:   cap[203]: 0x00000000 (DXFMT_BC2_UNORM_SRGB)
+2018-05-10T20:39:05.063+08:00| vmx| I125:   cap[204]: 0x00000000 (DXFMT_BC3_TYPELESS)
+2018-05-10T20:39:05.063+08:00| vmx| I125:   cap[205]: 0x00000000 (DXFMT_BC3_UNORM_SRGB)
+2018-05-10T20:39:05.063+08:00| vmx| I125:   cap[206]: 0x00000000 (DXFMT_BC4_TYPELESS)
+2018-05-10T20:39:05.064+08:00| vmx| I125:   cap[207]: 0x00000000 (DXFMT_ATI1)
+2018-05-10T20:39:05.064+08:00| vmx| I125:   cap[208]: 0x00000000 (DXFMT_BC4_SNORM)
+2018-05-10T20:39:05.064+08:00| vmx| I125:   cap[209]: 0x00000000 (DXFMT_BC5_TYPELESS)
+2018-05-10T20:39:05.065+08:00| vmx| I125:   cap[210]: 0x00000000 (DXFMT_ATI2)
+2018-05-10T20:39:05.065+08:00| vmx| I125:   cap[211]: 0x00000000 (DXFMT_BC5_SNORM)
+2018-05-10T20:39:05.065+08:00| vmx| I125:   cap[212]: 0x00000000 (DXFMT_R10G10B10_XR_BIAS_A2_UNORM)
+2018-05-10T20:39:05.065+08:00| vmx| I125:   cap[213]: 0x00000000 (DXFMT_B8G8R8A8_TYPELESS)
+2018-05-10T20:39:05.066+08:00| vmx| I125:   cap[214]: 0x00000000 (DXFMT_B8G8R8A8_UNORM_SRGB)
+2018-05-10T20:39:05.066+08:00| vmx| I125:   cap[215]: 0x00000000 (DXFMT_B8G8R8X8_TYPELESS)
+2018-05-10T20:39:05.066+08:00| vmx| I125:   cap[216]: 0x00000000 (DXFMT_B8G8R8X8_UNORM_SRGB)
+2018-05-10T20:39:05.067+08:00| vmx| I125:   cap[217]: 0x00000000 (DXFMT_Z_DF16)
+2018-05-10T20:39:05.067+08:00| vmx| I125:   cap[218]: 0x00000000 (DXFMT_Z_DF24)
+2018-05-10T20:39:05.067+08:00| vmx| I125:   cap[219]: 0x00000000 (DXFMT_Z_D24S8_INT)
+2018-05-10T20:39:05.068+08:00| vmx| I125:   cap[220]: 0x00000000 (DXFMT_YV12)
+2018-05-10T20:39:05.068+08:00| vmx| I125:   cap[221]: 0x00000000 (DXFMT_R32G32B32A32_FLOAT)
+2018-05-10T20:39:05.068+08:00| vmx| I125:   cap[222]: 0x00000000 (DXFMT_R16G16B16A16_FLOAT)
+2018-05-10T20:39:05.069+08:00| vmx| I125:   cap[223]: 0x00000000 (DXFMT_R16G16B16A16_UNORM)
+2018-05-10T20:39:05.069+08:00| vmx| I125:   cap[224]: 0x00000000 (DXFMT_R32G32_FLOAT)
+2018-05-10T20:39:05.069+08:00| vmx| I125:   cap[225]: 0x00000000 (DXFMT_R10G10B10A2_UNORM)
+2018-05-10T20:39:05.070+08:00| vmx| I125:   cap[226]: 0x00000000 (DXFMT_R8G8B8A8_SNORM)
+2018-05-10T20:39:05.070+08:00| vmx| I125:   cap[227]: 0x00000000 (DXFMT_R16G16_FLOAT)
+2018-05-10T20:39:05.070+08:00| vmx| I125:   cap[228]: 0x00000000 (DXFMT_R16G16_UNORM)
+2018-05-10T20:39:05.071+08:00| vmx| I125:   cap[229]: 0x00000000 (DXFMT_R16G16_SNORM)
+2018-05-10T20:39:05.071+08:00| vmx| I125:   cap[230]: 0x00000000 (DXFMT_R32_FLOAT)
+2018-05-10T20:39:05.071+08:00| vmx| I125:   cap[231]: 0x00000000 (DXFMT_R8G8_SNORM)
+2018-05-10T20:39:05.072+08:00| vmx| I125:   cap[232]: 0x00000000 (DXFMT_R16_FLOAT)
+2018-05-10T20:39:05.072+08:00| vmx| I125:   cap[233]: 0x00000000 (DXFMT_D16_UNORM)
+2018-05-10T20:39:05.072+08:00| vmx| I125:   cap[234]: 0x00000000 (DXFMT_A8_UNORM)
+2018-05-10T20:39:05.072+08:00| vmx| I125:   cap[235]: 0x00000000 (DXFMT_BC1_UNORM)
+2018-05-10T20:39:05.073+08:00| vmx| I125:   cap[236]: 0x00000000 (DXFMT_BC2_UNORM)
+2018-05-10T20:39:05.073+08:00| vmx| I125:   cap[237]: 0x00000000 (DXFMT_BC3_UNORM)
+2018-05-10T20:39:05.073+08:00| vmx| I125:   cap[238]: 0x00000000 (DXFMT_B5G6R5_UNORM)
+2018-05-10T20:39:05.074+08:00| vmx| I125:   cap[239]: 0x00000000 (DXFMT_B5G5R5A1_UNORM)
+2018-05-10T20:39:05.074+08:00| vmx| I125:   cap[240]: 0x00000000 (DXFMT_B8G8R8A8_UNORM)
+2018-05-10T20:39:05.074+08:00| vmx| I125:   cap[241]: 0x00000000 (DXFMT_B8G8R8X8_UNORM)
+2018-05-10T20:39:05.075+08:00| vmx| I125:   cap[242]: 0x00000000 (DXFMT_BC4_UNORM)
+2018-05-10T20:39:05.075+08:00| vmx| I125:   cap[243]: 0x00000000 (DXFMT_BC5_UNORM)
+2018-05-10T20:39:05.075+08:00| vmx| I125: SVGA3dCaps: guest, compatibility level: No-Clamping
+2018-05-10T20:39:05.076+08:00| svga| I125: VTHREAD start thread 1 "svga" tid 8960
+2018-05-10T20:39:05.077+08:00| vmx| I125: SOUND 125.539589 Alsa library version: 1.1.0.
+2018-05-10T20:39:05.078+08:00| vmx| I125: VMCIDatagram: Attempt to create handle (14) with no device
+2018-05-10T20:39:05.079+08:00| vmx| I125: WORKER: Creating new group with numThreads=1 (23)
+2018-05-10T20:39:05.079+08:00| vmx| I125: DISKUTIL: (null) : max toolsVersion = 0, type = 0
+2018-05-10T20:39:05.079+08:00| vmx| I125: DISKUTIL: Offline toolsVersion = 0, type = 0
+2018-05-10T20:39:05.079+08:00| vmx| I125: TOOLS setting legacy tools version to '0' type 0, manifest status is 9
+2018-05-10T20:39:05.079+08:00| vmx| I125: ToolsISO: open of /usr/lib/vmware/isoimages/isoimages_manifest.txt.sig failed: Could not find the file
+2018-05-10T20:39:05.079+08:00| vmx| I125: ToolsISO: Unable to read signature file '/usr/lib/vmware/isoimages/isoimages_manifest.txt.sig', ignoring.
+2018-05-10T20:39:05.081+08:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file '/usr/lib/vmware/isoimages/isoimages_manifest.txt'
+2018-05-10T20:39:05.081+08:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2018-05-10T20:39:05.081+08:00| vmx| I125: VMXVmdb_SetToolsVersionStatus: status value set to 'notAvailable', 'noTools', install impossible
+2018-05-10T20:39:05.082+08:00| vmx| I125: ToolsISO: open of /usr/lib/vmware/isoimages/isoimages_manifest.txt.sig failed: Could not find the file
+2018-05-10T20:39:05.082+08:00| vmx| I125: ToolsISO: Unable to read signature file '/usr/lib/vmware/isoimages/isoimages_manifest.txt.sig', ignoring.
+2018-05-10T20:39:05.083+08:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file '/usr/lib/vmware/isoimages/isoimages_manifest.txt'
+2018-05-10T20:39:05.083+08:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2018-05-10T20:39:05.083+08:00| vmx| I125: VMXVmdb_SetToolsVersionStatus: status value set to 'notAvailable', 'noTools', install impossible
+2018-05-10T20:39:05.083+08:00| vmx| I125: TOOLS INSTALL initializing state to IDLE on power on.
+2018-05-10T20:39:05.085+08:00| vmx| W115: NVRAMMGR: No valid NVRAM file found, will create default NVRAM.
+2018-05-10T20:39:05.099+08:00| vmx| I125: FeatureCompat: No VM masks.
+2018-05-10T20:39:05.099+08:00| vmx| I125: MonPmc: ctrBase 0xc1 selBase 0x186/1 PGC 1/1 SMM 1 drain 0 AMD 0
+2018-05-10T20:39:05.099+08:00| vmx| I125+ MonPmc:   gen counters num: 2 width 40 write width 32
+2018-05-10T20:39:05.099+08:00| vmx| I125+ MonPmc:   fix counters num: 3 width 40
+2018-05-10T20:39:05.099+08:00| vmx| I125+ MonPmc:   unavailable counters: 0x200000000
+2018-05-10T20:39:05.102+08:00| vmx| I125: guestCpuFeatures = 0xbc
+2018-05-10T20:39:05.102+08:00| vmx| A100: ConfigDB: Setting monitor.phys_bits_used = "36"
+2018-05-10T20:39:05.342+08:00| vmx| I125: Full guest CPUID with differences from hostCPUID highlighted.
+2018-05-10T20:39:05.342+08:00| vmx| I125: guest vs. host CPUID guest vendor: GenuineIntel
+2018-05-10T20:39:05.342+08:00| vmx| I125: guest vs. host CPUID guest family: 0x6 model: 0x17 stepping: 0xa
+2018-05-10T20:39:05.342+08:00| vmx| I125: guest vs. host CPUID guest codename: Penryn/Harpertown (Core2)
+2018-05-10T20:39:05.342+08:00| vmx| I125: guest vs. host CPUID guest name: Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
+2018-05-10T20:39:05.342+08:00| vmx| I125: guest vs. host CPUID       level eaxIn, ecxIn:        eax        ebx        ecx        edx
+2018-05-10T20:39:05.342+08:00| vmx| I125: guest vs. host CPUID guest level 00000000,  0: 0x0000000d 0x756e6547 0x6c65746e 0x49656e69
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID guest level 00000001,  0: 0x0001067a 0x00010800 0x00082201 0x0fabfbff
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID *host level 00000001,  0: 0x0001067a 0x00020800 0x0c08e3fd 0xbfebfbff
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID guest level 00000002,  0: 0x05b0b101 0x005657f0 0x00000000 0x2cb43048
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID guest level 00000003,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID guest level 00000004,  0: 0x00000121 0x01c0003f 0x0000003f 0x00000001
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID *host level 00000004,  0: 0x04000121 0x01c0003f 0x0000003f 0x00000001
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID guest level 00000004,  1: 0x00000122 0x01c0003f 0x0000003f 0x00000001
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID *host level 00000004,  1: 0x04000122 0x01c0003f 0x0000003f 0x00000001
+2018-05-10T20:39:05.343+08:00| vmx| I125: guest vs. host CPUID guest level 00000004,  2: 0x00000143 0x02c0003f 0x00000fff 0x00000001
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID *host level 00000004,  2: 0x04004143 0x02c0003f 0x00000fff 0x00000001
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID guest level 00000004,  3: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID guest level 00000004,  4: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID guest level 00000004,  5: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID guest level 00000004,  6: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID guest level 00000006,  0: 0x00000003 0x00000002 0x00000003 0x00000000
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID guest level 00000007,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.344+08:00| vmx| I125: guest vs. host CPUID guest level 00000008,  0: 0x00000400 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.345+08:00| vmx| I125: guest vs. host CPUID guest level 00000009,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.345+08:00| vmx| I125: guest vs. host CPUID guest level 0000000a,  0: 0x07280201 0x0000007f 0x00000000 0x00000000
+2018-05-10T20:39:05.345+08:00| vmx| I125: guest vs. host CPUID *host level 0000000a,  0: 0x07280202 0x00000000 0x00000000 0x00000503
+2018-05-10T20:39:05.345+08:00| vmx| I125: guest vs. host CPUID guest level 0000000c,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID *host level 0000000d,  0: 0x00000003 0x00000240 0x00000240 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  1: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  2: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  3: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  4: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  5: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  6: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.346+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  7: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  8: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  9: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d,  f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.347+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 10: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 11: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 12: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 13: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 14: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 15: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 16: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 17: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 18: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 19: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.348+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 1a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 1b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 1c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 1d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 1e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 1f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 20: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 21: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 22: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 23: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.349+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 24: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 25: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 26: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 27: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 28: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 29: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 2a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 2b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.350+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 2c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 2d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 2e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 2f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 30: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 31: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 32: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 33: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.351+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 34: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 35: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 36: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 37: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 38: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 39: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 3a: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 3b: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.352+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 3c: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 3d: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 3e: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 0000000d, 3f: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 0000000e,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 0000000f,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 00000010,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 00000011,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 00000012,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.353+08:00| vmx| I125: guest vs. host CPUID guest level 40000000,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000001,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000002,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000003,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000004,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000005,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000006,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000007,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000008,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 40000009,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.354+08:00| vmx| I125: guest vs. host CPUID guest level 4000000a,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 4000000b,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 4000000c,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 4000000d,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 4000000e,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 4000000f,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 40000010,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 80000000,  0: 0x80000008 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 80000001,  0: 0x00000000 0x00000000 0x00000001 0x20100800
+2018-05-10T20:39:05.355+08:00| vmx| I125: guest vs. host CPUID guest level 80000002,  0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 80000003,  0: 0x44203229 0x43206f75 0x20205550 0x50202020
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 80000004,  0: 0x30303738 0x20402020 0x33352e32 0x007a4847
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 80000005,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 80000006,  0: 0x00000000 0x00000000 0x0c006040 0x00000000
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 80000007,  0: 0x00000000 0x00000000 0x00000000 0x00000100
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID *host level 80000007,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 80000008,  0: 0x00003024 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 80000009,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 8000000b,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.356+08:00| vmx| I125: guest vs. host CPUID guest level 8000000c,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 8000000d,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 8000000e,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 8000000f,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 80000010,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 80000011,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 80000012,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 80000013,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 80000014,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.357+08:00| vmx| I125: guest vs. host CPUID guest level 80000015,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 80000016,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 80000017,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 80000018,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 80000019,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 8000001a,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 8000001b,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 8000001c,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.358+08:00| vmx| I125: guest vs. host CPUID guest level 8000001d,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.359+08:00| vmx| I125: guest vs. host CPUID guest level 8000001d,  1: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.359+08:00| vmx| I125: guest vs. host CPUID guest level 8000001d,  2: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.359+08:00| vmx| I125: guest vs. host CPUID guest level 8000001d,  3: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.359+08:00| vmx| I125: guest vs. host CPUID guest level 8000001d,  4: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.359+08:00| vmx| I125: guest vs. host CPUID guest level 8000001e,  0: 0x00000000 0x00000000 0x00000000 0x00000000
+2018-05-10T20:39:05.360+08:00| vmx| I125: Minimum ucode level: 0x00000a0b
+2018-05-10T20:39:05.360+08:00| vmx| I125: VPMC: events will use hybrid freeze.
+2018-05-10T20:39:05.360+08:00| vmx| I125: VPMC: gen counters: num 2 mask 0xffffffffff
+2018-05-10T20:39:05.361+08:00| vmx| I125: VPMC: fix counters: num 0 mask 0; version 1
+2018-05-10T20:39:05.361+08:00| vmx| I125: VPMC: hardware counters: 0
+2018-05-10T20:39:05.361+08:00| vmx| I125: SVGA-GFB: Allocated gfbSize=16777216
+2018-05-10T20:39:05.361+08:00| vmx| A100: ConfigDB: Setting vmotion.checkpointFBSize = "16777216"
+2018-05-10T20:39:05.534+08:00| vmx| I125: SVGA-PCI: BAR gfbSize=134217728, fifoSize=8388608
+2018-05-10T20:39:05.535+08:00| vmx| I125: SVGA: SVGA_REG_MEMORY_SIZE=822083584
+2018-05-10T20:39:05.535+08:00| vmx| I125: SVGA: SVGA_REG_VRAM_SIZE=16777216
+2018-05-10T20:39:05.535+08:00| vmx| I125: BusMemSampleSetUpStats: touched: initPct 75 pages 3072 : dirtied: initPct 75 pages 3072
+2018-05-10T20:39:05.535+08:00| vmx| I125: MemSched: caller 0 numvm 1 locked pages: num 488 max 851968
+2018-05-10T20:39:05.536+08:00| vmx| I125: MemSched: locked Page Limit: host 915965 config 860160 dynam -1
+2018-05-10T20:39:05.536+08:00| vmx| I125: MemSched: minmempct 50  timestamp 2115
+2018-05-10T20:39:05.536+08:00| vmx| I125: MemSched: VM 0 min 14731 max 16779 shares 4096 paged 73915 nonpaged 5667 anonymous 7016 locked 488 touchedPct 75 dirtiedPct 75 timestamp 2115 vmResponsive is 1
+2018-05-10T20:39:05.536+08:00| vmx| I125: MemSched: locked 488 target 16779 balloon 0 0 0 swapped 0 0 allocd 0 512 state 0 100
+2018-05-10T20:39:05.537+08:00| vmx| I125: MemSched: states: 0 1 : 1 0 : 2 0 : 3 0
+2018-05-10T20:39:05.537+08:00| vmx| I125: MemSched: Balloon enabled 1 guestType 0 maxSize 0
+2018-05-10T20:39:05.537+08:00| vmx| I125: FeatureCompat: Capabilities:
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.Intel = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.XSAVE = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.LM = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.MWAIT = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.SSSE3 = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.SSE3 = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.NX = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.SSE41 = 0x1
+2018-05-10T20:39:05.538+08:00| vmx| I125: Capability Found: cpuid.SS = 0x1
+2018-05-10T20:39:05.539+08:00| vmx| I125: Capability Found: cpuid.DS = 0x1
+2018-05-10T20:39:05.539+08:00| vmx| I125: Capability Found: cpuid.LAHF64 = 0x1
+2018-05-10T20:39:05.539+08:00| vmx| I125: Capability Found: cpuid.CMPXCHG16B = 0x1
+2018-05-10T20:39:05.539+08:00| vmx| I125: Capability Found: cpuid.XCR0_MASTER_SSE = 0x1
+2018-05-10T20:39:05.539+08:00| vmx| I125: FeatureCompat: Requirements:
+2018-05-10T20:39:05.539+08:00| vmx| I125: VM Features Required: cpuid.SSE3 - Bool:Min:1
+2018-05-10T20:39:05.539+08:00| vmx| I125: VM Features Required: cpuid.SSSE3 - Bool:Min:1
+2018-05-10T20:39:05.539+08:00| vmx| I125: VM Features Required: cpuid.CMPXCHG16B - Bool:Min:1
+2018-05-10T20:39:05.539+08:00| vmx| I125: VM Features Required: cpuid.SSE41 - Bool:Min:1
+2018-05-10T20:39:05.539+08:00| vmx| I125: VM Features Required: cpuid.DS - Bool:Min:1
+2018-05-10T20:39:05.540+08:00| vmx| I125: VM Features Required: cpuid.SS - Bool:Min:1
+2018-05-10T20:39:05.540+08:00| vmx| I125: VM Features Required: cpuid.LAHF64 - Bool:Min:1
+2018-05-10T20:39:05.540+08:00| vmx| I125: VM Features Required: cpuid.NX - Bool:Min:1
+2018-05-10T20:39:05.540+08:00| vmx| I125: VM Features Required: cpuid.LM - Bool:Min:1
+2018-05-10T20:39:05.540+08:00| vmx| I125: VM Features Required: cpuid.Intel - Bool:Min:1
+2018-05-10T20:39:05.541+08:00| vmx| I125: TOOLS received request in VMX to set option 'enableDnD' -> '1'
+2018-05-10T20:39:05.543+08:00| vmx| I125: MMIO Honors PAT == 0
+2018-05-10T20:39:05.543+08:00| vmx| I125: Active HV capabilities
+2018-05-10T20:39:05.543+08:00| vmx| I125:    Full decode
+2018-05-10T20:39:05.543+08:00| vmx| I125:    MSR permission bitmap
+2018-05-10T20:39:05.543+08:00| vmx| I125:    Next RIP
+2018-05-10T20:39:05.543+08:00| vmx| I125:    Guest physical width
+2018-05-10T20:39:05.543+08:00| vmx| I125:    Virtual NMI
+2018-05-10T20:39:05.544+08:00| vmx| I125: 
+2018-05-10T20:39:05.544+08:00| vmx| I125+ OvhdMem: Static (Power On) Overheads
+2018-05-10T20:39:05.544+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:05.544+08:00| vmx| I125: OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2018-05-10T20:39:05.544+08:00| vmx| I125: OvhdMem OvhdUser_MainMem                    :    4096   4096      - |      -      -      -
+2018-05-10T20:39:05.544+08:00| vmx| I125: OvhdMem OvhdUser_VmxText                    :    6912   6912      - |      -      -      -
+2018-05-10T20:39:05.544+08:00| vmx| I125: OvhdMem OvhdUser_VmxTextLibs                :   15360  15360      - |      -      -      -
+2018-05-10T20:39:05.544+08:00| vmx| I125: OvhdMem Total excluded                      :   26368  26368      - |      -      -      -
+2018-05-10T20:39:05.544+08:00| vmx| I125: OvhdMem Actual maximum                      :          26368        |             -
+2018-05-10T20:39:05.544+08:00| vmx| I125: 
+2018-05-10T20:39:05.545+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:05.545+08:00| vmx| I125: OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2018-05-10T20:39:05.545+08:00| vmx| I125: OvhdMem OvhdUser_KSTATS_vmm                 :       0      0      - |      0      0      -
+2018-05-10T20:39:05.545+08:00| vmx| I125: OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2018-05-10T20:39:05.545+08:00| vmx| I125: OvhdMem OvhdUser_KSTATS_device              :       0      0      - |      0      0      -
+2018-05-10T20:39:05.545+08:00| vmx| I125: OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2018-05-10T20:39:05.545+08:00| vmx| I125: OvhdMem OvhdUser_KSTATS_migrate             :       0      0      - |      0      0      -
+2018-05-10T20:39:05.545+08:00| vmx| I125: OvhdMem OvhdUser_IOFilters                  :       0      0      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaSurfaceData            :       0      0      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaRestoreBufferArray     :       0      0      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaSDirtyCache            :      48     48      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderTable            :       0      0      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderText             :       0      0      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaContextCache           :       0      0      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaMobCache               :     248    248      - |     24     24      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRTViewTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:05.546+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDSViewTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:05.547+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSRViewTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:05.547+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXBlendStateTable      :       0      0      - |      0      0      -
+2018-05-10T20:39:05.547+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXElementLayoutTable   :       0      0      - |      0      0      -
+2018-05-10T20:39:05.547+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDepthStencilTable    :       0      0      - |      0      0      -
+2018-05-10T20:39:05.547+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRasterizerStateTable :       0      0      - |      0      0      -
+2018-05-10T20:39:05.547+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSamplerTable         :       0      0      - |      0      0      -
+2018-05-10T20:39:05.547+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXContextTable         :       0      0      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXShaderTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXStreamOutTable       :       0      0      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXQueryTable           :       0      0      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_VmxAllocTrack              :       0      0      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_VmxCallStackProf           :       0      0      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_VmxHeap                    :    8704   8704      - |      0      0      -
+2018-05-10T20:39:05.548+08:00| vmx| I125: OvhdMem OvhdUser_VmxHeapFreeList            :       0      0      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMks                     :      33     33      - |      1      1      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMks3d                   :       0      0      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksGLRenderer           :       0      0      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksGLTransient          :       0      0      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksLLVM                 :       0      0      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreenTemp           :   12290  12290      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksVnc                  :    5599   5599      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreen               :    8193   8193      - |      0      0      -
+2018-05-10T20:39:05.549+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxPhysMemRingBuf          :       0      0      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxFTCptOutputBuf          :       0      0      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadMks               :     512    512      - |    512    512      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadVmx               :     512    512      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadsVcpu             :     256    256      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadsWorker           :   15872  15872      - |      0      0      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadSvga              :     512    512      - |    512    512      -
+2018-05-10T20:39:05.550+08:00| vmx| I125: OvhdMem Total paged                         :   73915  73915      - |   1049   1049      -
+2018-05-10T20:39:05.551+08:00| vmx| I125: OvhdMem Actual maximum                      :          73915        |          1049
+2018-05-10T20:39:05.551+08:00| vmx| I125: 
+2018-05-10T20:39:05.551+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:05.551+08:00| vmx| I125: OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2018-05-10T20:39:05.551+08:00| vmx| I125: OvhdMem OvhdUser_SharedArea                 :      65     65      - |     46     46      -
+2018-05-10T20:39:05.551+08:00| vmx| I125: OvhdMem OvhdUser_BusMemTraceBitmap          :       3      3      - |      0      0      -
+2018-05-10T20:39:05.551+08:00| vmx| I125: OvhdMem OvhdUser_PFrame                     :      24    342      - |     24     24      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_VProbe                     :       0      0      - |      0      0      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |     16     16      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_VGA                        :      64     64      - |     64     64      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      1      1      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_ServicesMPN                :       2      2      - |      2      2      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_LocalApic                  :       1      1      - |      1      1      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_BusError                   :       1      1      - |      0      0      -
+2018-05-10T20:39:05.552+08:00| vmx| I125: OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_VnicGuest                  :       0      0      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_VnicMmap                   :       0      0      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_TestDev                    :       0      0      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_LSIBIOS                    :       0      0      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_LSIRings                   :       0      0      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_PCIPBIOS                   :       0      0      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_PVSCSIBIOS                 :       0      0      - |      0      0      -
+2018-05-10T20:39:05.553+08:00| vmx| I125: OvhdMem OvhdUser_PVSCSIKickReg              :       0      0      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_SAS1068BIOS                :       0      0      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_AHCIBIOS                   :       0      0      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_SMM                        :       0      0      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_SVGAFB                     :    4096   4096      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_SVGAMEM                    :     512    512      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2018-05-10T20:39:05.554+08:00| vmx| I125: OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_PhysMemDebug               :       0      0      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_ExtCfg                     :       1      1      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_HV                         :       4      4      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_HVIOBitmap                 :       3      3      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_HVMSRBitmap                :       2      2      - |      1      1      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_VHVGuestMSRBitmap          :       2      2      - |      0      0      -
+2018-05-10T20:39:05.555+08:00| vmx| I125: OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_PCIP                       :       0      0      - |      0      0      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_VMsafe                     :       0      0      - |      0      0      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_MonBootstrap               :       2      2      - |      2      2      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_MonWired                   :      49     49      - |     49     49      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_MonLow                     :       1      1      - |      0      0      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_MonWiredNuma               :      29     29      - |     29     29      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_MonNuma                    :     272    272      - |    251    251      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_MonOther                   :      34     34      - |      0      0      -
+2018-05-10T20:39:05.556+08:00| vmx| I125: OvhdMem OvhdUser_PAEShadow                  :       1      1      - |      0      0      -
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem OvhdUser_FTCpt                      :       0      0      - |      0      0      -
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem OvhdUser_NVDIMM                     :       0      0      - |      0      0      -
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem Total nonpaged                      :    5349   5667      - |    486    486      -
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem Actual maximum                      :           5667        |           486
+2018-05-10T20:39:05.557+08:00| vmx| I125: 
+2018-05-10T20:39:05.557+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem OvhdMon_Alloc                       :      79     79      - |      0      0      -
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem OvhdMon_BusMemFrame                 :      41    496      - |      0      0      -
+2018-05-10T20:39:05.557+08:00| vmx| I125: OvhdMem OvhdMon_BusMemFramePGAR             :       2      2      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_BusMemTracePGAR             :       2      2      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_BusMem2MRegionPGAR          :       2      2      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_MMU                         :     775    775      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_Backmap                     :       2      2      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_ScratchAS                   :     162    162      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_MonTLB                      :       6      6      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_DT                          :      18     18      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_TCCoherency                 :      21     21      - |      0      0      -
+2018-05-10T20:39:05.558+08:00| vmx| I125: OvhdMem OvhdMon_TC                          :    4609   4609      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_ChainInfo                   :      81     81      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_Island                      :       2      2      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_BusMemScratchAS             :       4      4      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_PlatformScratchAS           :       3      3      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_HVNuma                      :       3      3      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_HV                          :       1      1      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2018-05-10T20:39:05.559+08:00| vmx| I125: OvhdMem OvhdMon_VNPTShadow                  :       0      0      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_VNPTShadowCache             :       0      0      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_VNPTBackmap                 :       0      0      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_SVMIDT                      :       1      1      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_CallStackProfAnon           :       0      0      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_NumaTextRodata              :     223    223      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_NumaDataBss                 :      49     49      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_NumaLargeData               :       0      0      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_WiredNuma                   :      29     29      - |      0      0      -
+2018-05-10T20:39:05.560+08:00| vmx| I125: OvhdMem OvhdMon_GPhysTraced                 :     161    161      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_GPhysHWMMU                  :       0      0      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_GPhysNoTrace                :     161    161      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_BTScratchPage               :       1      1      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_PhysMemGart                 :      88     88      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_TraceALot                   :       0      0      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_VIDE                        :       0      0      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_VMXNETWake                  :       0      0      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_BusLogic                    :       0      0      - |      0      0      -
+2018-05-10T20:39:05.561+08:00| vmx| I125: OvhdMem OvhdMon_Ahci                        :       0      0      - |      0      0      -
+2018-05-10T20:39:05.562+08:00| vmx| I125: OvhdMem OvhdMon_PVSCSIShadowRing            :       0      0      - |      0      0      -
+2018-05-10T20:39:05.562+08:00| vmx| I125: OvhdMem OvhdMon_LSIRings                    :       0      0      - |      0      0      -
+2018-05-10T20:39:05.562+08:00| vmx| I125: OvhdMem OvhdMon_FTCptScratchAS              :       0      0      - |      0      0      -
+2018-05-10T20:39:05.562+08:00| vmx| I125: OvhdMem OvhdMon_Hba                         :       0      0      - |      0      0      -
+2018-05-10T20:39:05.562+08:00| vmx| I125: OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2018-05-10T20:39:05.562+08:00| vmx| I125: OvhdMem Total anonymous                     :    6561   7016      - |      0      0      -
+2018-05-10T20:39:05.562+08:00| vmx| I125: OvhdMem Actual maximum                      :           7016        |             0
+2018-05-10T20:39:05.562+08:00| vmx| I125: 
+2018-05-10T20:39:05.563+08:00| vmx| I125: VMMEM: Precise Reservation: 335MB (MainMem=16MB)
+2018-05-10T20:39:05.563+08:00| vmx| I125: Vix: [8935 mainDispatch.c:1073]: VMAutomation_PowerOn. Powering on.
+2018-05-10T20:39:05.565+08:00| vmx| I125: VMX_PowerOn: ModuleTable_PowerOn = 1
+2018-05-10T20:39:05.565+08:00| vmx| A100: ConfigDB: Setting cleanShutdown = "FALSE"
+2018-05-10T20:39:05.565+08:00| vmx| A100: ConfigDB: Setting softPowerOff = "FALSE"
+2018-05-10T20:39:05.749+08:00| vmx| I125: VTHREAD pthread_setschedparam failed: Invalid argument
+2018-05-10T20:39:05.750+08:00| vcpu-0| I125: VTHREAD start thread 4 "vcpu-0" tid 8961
+2018-05-10T20:39:05.758+08:00| vcpu-0| I125: MonTimer APIC:0/0 vec: 0
+2018-05-10T20:39:05.759+08:00| vcpu-0| I125: APIC: version = 0x14, max LVT = 5, LDR = 0x2000000, DFR = 0xffffffff
+2018-05-10T20:39:05.762+08:00| svga| I125: SVGA thread is alive
+2018-05-10T20:39:05.762+08:00| vcpu-0| I125: CPU reset: hard (mode 2)
+2018-05-10T20:39:05.762+08:00| vcpu-0| W115: VSOCKET 1 Failed to create socket: Network is unreachable (101)
+2018-05-10T20:39:05.763+08:00| vcpu-0| I125: GuestRpc: Could not create RPCI listening socket: Network is unreachable
+2018-05-10T20:39:05.763+08:00| vcpu-0| I125: GuestRpc: Using vsocket for TCLO messaging is disabled.
+2018-05-10T20:39:05.763+08:00| vcpu-0| I125: PIIX4: PM Resuming from suspend type 0x0, chipset.onlineStandby 0
+2018-05-10T20:39:05.794+08:00| vcpu-0| I125: FLOPPYLIB-IMAGE: Invalid boot sector: signature aa55, sector size 256, sectors 6378
+2018-05-10T20:39:05.795+08:00| vcpu-0| I125: FLOPPYLIB-IMAGE: Expected: signature aa55, sector size 512, sectors 237
+2018-05-10T20:39:05.795+08:00| vcpu-0| I125: FLOPPYLIB-IMAGE: Could not detect floppy geometry from image file.
+2018-05-10T20:39:05.795+08:00| vcpu-0| I125: FLOPPYLIB-IMAGE: Default 80/2/18 geometry used.
+2018-05-10T20:39:05.796+08:00| vcpu-0| I125: Msg_Question:
+2018-05-10T20:39:05.796+08:00| vcpu-0| I125: [msg.noAutodetectBackingQuestion] Cannot connect the virtual device ide1:0 because no corresponding device is available on the host.
+2018-05-10T20:39:05.796+08:00| vcpu-0| I125+ 
+2018-05-10T20:39:05.796+08:00| vcpu-0| I125+ Do you want to try to connect this virtual device every time you power on the virtual machine?
+2018-05-10T20:39:05.796+08:00| vcpu-0| I125: ----------------------------------------
+2018-05-10T20:39:07.451+08:00| vcpu-0| I125: MsgQuestion: msg.noAutodetectBackingQuestion reply=0
+2018-05-10T20:39:07.452+08:00| vcpu-0| I125: Msg_Post: Warning
+2018-05-10T20:39:07.452+08:00| vcpu-0| I125: [msg.device.startdisconnected] Virtual device 'ide1:0' will start disconnected.
+2018-05-10T20:39:07.452+08:00| vcpu-0| I125: ----------------------------------------
+2018-05-10T20:39:07.493+08:00| vcpu-0| A100: ConfigDB: Unsetting "sensor.accelerometer"
+2018-05-10T20:39:07.494+08:00| vcpu-0| A100: ConfigDB: Unsetting "sensor.ambientLight"
+2018-05-10T20:39:07.494+08:00| vcpu-0| A100: ConfigDB: Unsetting "sensor.compass"
+2018-05-10T20:39:07.494+08:00| vcpu-0| A100: ConfigDB: Unsetting "sensor.gyrometer"
+2018-05-10T20:39:07.494+08:00| vcpu-0| A100: ConfigDB: Unsetting "sensor.inclinometer"
+2018-05-10T20:39:07.494+08:00| vcpu-0| A100: ConfigDB: Unsetting "sensor.orientation"
+2018-05-10T20:39:07.496+08:00| vcpu-0| I125: PolicyVMXFindPolicyKey: policy file does not exist.
+2018-05-10T20:39:07.504+08:00| vcpu-0| I125: Vix: [8961 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1 additionalError=0
+2018-05-10T20:39:07.504+08:00| vcpu-0| I125: Vix: [8961 mainDispatch.c:4155]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+2018-05-10T20:39:07.504+08:00| vcpu-0| I125: Vix: [8961 mainDispatch.c:4155]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2018-05-10T20:39:07.504+08:00| vcpu-0| I125: Transitioned vmx/execState/val to poweredOn
+2018-05-10T20:39:07.506+08:00| vmx| A100: ConfigDB: Setting ide1:0.fileName = "auto detect"
+2018-05-10T20:39:07.506+08:00| vmx| A100: ConfigDB: Setting floppy0.clientDevice = "FALSE"
+2018-05-10T20:39:07.546+08:00| mks| I125: KHBKL: Unable to parse keystring at: ''
+2018-05-10T20:39:07.723+08:00| vmx| I125: PTSC: using reference clock [TSC: 589876232120->595966322374, RC: 2112317566->2117317687]
+2018-05-10T20:39:07.723+08:00| vmx| I125: PTSC: current PTSC=12655799796
+2018-05-10T20:39:07.737+08:00| vcpu-0| I125: SVGA: Registering MemSpace at 0xf0000000(0x0) and 0xfe000000(0x0)
+2018-05-10T20:39:07.740+08:00| vcpu-0| I125: SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2018-05-10T20:39:07.745+08:00| vcpu-0| I125: SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2018-05-10T20:39:07.751+08:00| vcpu-0| I125: SVGA: Unregistering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2018-05-10T20:39:07.752+08:00| vcpu-0| I125: SVGA: Registering IOSpace at 0x10d0
+2018-05-10T20:39:07.752+08:00| vcpu-0| I125: SVGA: Registering MemSpace at 0xf0000000(0xf0000000) and 0xfe000000(0xfe000000)
+2018-05-10T20:39:07.771+08:00| mks| I125: X11-Backend: successfully started by HWinMux to do window composition.
+2018-05-10T20:39:07.771+08:00| mks| I125: MKS-HWinCompMux: Started X11 presentation backend
+2018-05-10T20:39:07.773+08:00| mks| I125: MKS-X: XI major version 2, minor version 3
+2018-05-10T20:39:07.774+08:00| mks| I125: X11-Backend: XINFO SHM available, version 1.2, shared pixmaps
+2018-05-10T20:39:07.775+08:00| mks| I125: X11-Backend: Error selecting parent input: (1)
+2018-05-10T20:39:07.775+08:00| mks| I125: X11-Backend: Error selecting input: (1)
+2018-05-10T20:39:07.775+08:00| mks| I125: X11-Backend: Error lowering window: (1)
+2018-05-10T20:39:07.775+08:00| mks| I125: X11-Backend: Error selecting root input: (1)
+2018-05-10T20:39:07.775+08:00| mks| I125: X11-Backend: Error changing attributes: (1)
+2018-05-10T20:39:07.775+08:00| mks| I125: X11-Backend: Error mapping window: (1)
+2018-05-10T20:39:07.775+08:00| mks| I125: XINFO X fd is 20
+2018-05-10T20:39:07.775+08:00| mks| I125: XINFO depth 24 bpp 32 class 4
+2018-05-10T20:39:07.776+08:00| mks| I125: XINFO  ServerVendor: "The X.Org Foundation"
+2018-05-10T20:39:07.776+08:00| mks| I125: XINFO VendorRelease: 11804000
+2018-05-10T20:39:07.778+08:00| mks| I125: XINFO XKB available, version 1.0
+2018-05-10T20:39:07.778+08:00| mks| I125: XINFO XTEST available, version 2.2
+2018-05-10T20:39:07.778+08:00| mks| I125: XINFO Xinerama available
+2018-05-10T20:39:07.779+08:00| mks| I125: XKeymap_PowerOn: use evdev keycode mapping.
+2018-05-10T20:39:07.780+08:00| mks| I125: MKS-SWB: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 1.
+2018-05-10T20:39:08.063+08:00| vcpu-0| I125: VIDE: Curr CHS info cyls: 120 heads: 16 sects: 63 lba_cap: 121967
+2018-05-10T20:39:08.387+08:00| vcpu-0| I125: BIOS-UUID is 56 4d d5 34 7a d5 f8 df-6a 4e 3d 80 76 b0 f2 f3
+2018-05-10T20:39:08.722+08:00| vcpu-0| I125: VIDE: Curr CHS info cyls: 967 heads: 2 sects: 63 lba_cap: 121967
+2018-05-10T20:39:14.058+08:00| vmx| I125: VMXVmdbCbVmVmxExecState: Exec state change requested to state poweredOff without reset, soft, softOptionTimeout: 20000000.
+2018-05-10T20:39:14.058+08:00| vmx| I125: Stopping VCPU threads...
+2018-05-10T20:39:14.059+08:00| svga| I125: SVGA thread is exiting
+2018-05-10T20:39:14.061+08:00| mks| I125: X11-Backend: stopped by HWinMux to do window composition.
+2018-05-10T20:39:14.061+08:00| mks| I125: MKS-SWB: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2018-05-10T20:39:14.061+08:00| vmx| I125: MKS thread is stopped
+2018-05-10T20:39:14.062+08:00| vmx| I125: 
+2018-05-10T20:39:14.062+08:00| vmx| I125+ OvhdMem: Final (Power Off) Overheads
+2018-05-10T20:39:14.062+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_MainMem                    :    4096   4096      - |      -      -      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_VmxText                    :    6912   6912      - |      -      -      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_VmxTextLibs                :   15360  15360      - |      -      -      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem Total excluded                      :   26368  26368      - |      -      -      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem Actual maximum                      :          26368        |             -
+2018-05-10T20:39:14.062+08:00| vmx| I125: 
+2018-05-10T20:39:14.062+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_KSTATS_vmm                 :       0      0      - |      0      0      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_KSTATS_device              :       0      0      - |      0      0      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_KSTATS_migrate             :       0      0      - |      0      0      -
+2018-05-10T20:39:14.062+08:00| vmx| I125: OvhdMem OvhdUser_IOFilters                  :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaSurfaceData            :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaRestoreBufferArray     :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaSDirtyCache            :      48     48      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderTable            :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaShaderText             :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaContextCache           :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaMobCache               :     248    248      - |     24     24      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRTViewTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDSViewTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSRViewTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXBlendStateTable      :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXElementLayoutTable   :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXDepthStencilTable    :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXRasterizerStateTable :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXSamplerTable         :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXContextTable         :       0      0      - |      0      0      -
+2018-05-10T20:39:14.063+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXShaderTable          :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXStreamOutTable       :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_SvgaDXQueryTable           :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxAllocTrack              :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxCallStackProf           :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxHeap                    :    8704   8704      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxHeapFreeList            :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMks                     :      33     33      - |      1     10      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMks3d                   :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksGLRenderer           :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksGLTransient          :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksLLVM                 :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreenTemp           :   12290  12290      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksVnc                  :    5599   5599      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksScreen               :    8193   8193      - |      0    376      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxPhysMemRingBuf          :       0      0      - |      0      0      -
+2018-05-10T20:39:14.064+08:00| vmx| I125: OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VmxFTCptOutputBuf          :       0      0      - |      0      0      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadMks               :     512    512      - |    512    512      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadVmx               :     512    512      - |      0      0      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadsVcpu             :     256    256      - |      0    256      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadsWorker           :   15872  15872      - |      0      0      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VmxThreadSvga              :     512    512      - |    512    512      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem Total paged                         :   73915  73915      - |   1049   1690      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem Actual maximum                      :          73915        |          1690
+2018-05-10T20:39:14.065+08:00| vmx| I125: 
+2018-05-10T20:39:14.065+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_SharedArea                 :      65     65      - |     46     46      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_BusMemTraceBitmap          :       3      3      - |      0      0      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_PFrame                     :      24    342      - |     24     24      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VProbe                     :       0      0      - |      0      0      -
+2018-05-10T20:39:14.065+08:00| vmx| I125: OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |     16     16      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_VGA                        :      64     64      - |     64     64      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      1      1      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_ServicesMPN                :       2      2      - |      2      2      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_LocalApic                  :       1      1      - |      1      1      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_BusError                   :       1      1      - |      1      1      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_VBIOS                      :       8      8      - |      8      8      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_VnicGuest                  :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_VnicMmap                   :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_TestDev                    :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_LSIBIOS                    :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_LSIRings                   :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_PCIPBIOS                   :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_PVSCSIBIOS                 :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_PVSCSIKickReg              :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_SAS1068BIOS                :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_SBIOS                      :      16     16      - |      2      2      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_AHCIBIOS                   :       0      0      - |      0      0      -
+2018-05-10T20:39:14.066+08:00| vmx| I125: OvhdMem OvhdUser_FlashRam                   :     128    128      - |     57     57      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_SMM                        :       0      0      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_SVGAFB                     :    4096   4096      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_SVGAMEM                    :     512    512      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_PhysMemDebug               :       0      0      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_ExtCfg                     :       1      1      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_HV                         :       4      4      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_HVIOBitmap                 :       3      3      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_HVMSRBitmap                :       2      2      - |      1      1      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_VHVGuestMSRBitmap          :       2      2      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_PCIP                       :       0      0      - |      0      0      -
+2018-05-10T20:39:14.067+08:00| vmx| I125: OvhdMem OvhdUser_VMsafe                     :       0      0      - |      0      0      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_MonBootstrap               :       0      2      - |      0      2      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_MonWired                   :      49     49      - |     49     49      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_MonLow                     :       1      1      - |      0      0      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_MonWiredNuma               :       0     29      - |      0     29      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_MonNuma                    :       0    272      - |      0    251      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_MonOther                   :      34     34      - |      0      0      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_PAEShadow                  :       1      1      - |      0      0      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_FTCpt                      :       0      0      - |      0      0      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdUser_NVDIMM                     :       0      0      - |      0      0      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem Total nonpaged                      :    5046   5667      - |    272    554      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem Actual maximum                      :           5667        |           486
+2018-05-10T20:39:14.068+08:00| vmx| I125: 
+2018-05-10T20:39:14.068+08:00| vmx| I125:                                                       reserved      |          used
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdMon_Alloc                       :      79     79      - |     19     67      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdMon_BusMemFrame                 :      41    496      - |     41     41      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdMon_BusMemFramePGAR             :       2      2      - |      2      2      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdMon_BusMemTracePGAR             :       2      2      - |      2      2      -
+2018-05-10T20:39:14.068+08:00| vmx| I125: OvhdMem OvhdMon_BusMem2MRegionPGAR          :       2      2      - |      2      2      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      1      1      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_MMU                         :     797    801      - |    751    753      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_Backmap                     :     114    114      - |    114    114      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_ScratchAS                   :     162    162      - |     14     14      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_MonTLB                      :       6      6      - |      6      6      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_DT                          :      18     18      - |      2      2      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_TCCoherency                 :      21     21      - |     20     20      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_TC                          :    4609   5120      - |   4544   5056      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_ChainInfo                   :      81     81      - |     81     81      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_Island                      :       2      2      - |      0      0      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_BusMemScratchAS             :       4      4      - |      4      4      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_PlatformScratchAS           :       3      3      - |      0      0      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_HVNuma                      :       3      3      - |      0      0      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_HV                          :       1      1      - |      1      1      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_VNPTShadow                  :       0      0      - |      0      0      -
+2018-05-10T20:39:14.069+08:00| vmx| I125: OvhdMem OvhdMon_VNPTShadowCache             :       0      0      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_VNPTBackmap                 :       0      0      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_SVMIDT                      :       1      1      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_CallStackProfAnon           :       0      0      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_Numa                        :      24     24      - |     14     23      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_NumaTextRodata              :     223    223      - |    202    202      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_NumaDataBss                 :      49     49      - |     49     49      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_NumaLargeData               :       0    512      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_WiredNuma                   :      29     29      - |     29     29      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_GPhysTraced                 :     161    161      - |     20     36      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_GPhysHWMMU                  :       0      0      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_GPhysNoTrace                :     161    161      - |     21     38      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_BTScratchPage               :       1      1      - |      1      1      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_PhysMemGart                 :      88     88      - |     80     80      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_TraceALot                   :       0      0      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_VIDE                        :       0      0      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_VMXNETWake                  :       0      0      - |      0      0      -
+2018-05-10T20:39:14.070+08:00| vmx| I125: OvhdMem OvhdMon_BusLogic                    :       0      0      - |      0      0      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem OvhdMon_Ahci                        :       0      0      - |      0      0      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem OvhdMon_PVSCSIShadowRing            :       0      0      - |      0      0      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem OvhdMon_LSIRings                    :       0      0      - |      0      0      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem OvhdMon_FTCptScratchAS              :       0      0      - |      0      0      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem OvhdMon_Hba                         :       0      0      - |      0      0      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem Total anonymous                     :    6695   8177      - |   6020   6624      -
+2018-05-10T20:39:14.071+08:00| vmx| I125: OvhdMem Actual maximum                      :           7073        |          6333
+2018-05-10T20:39:14.071+08:00| vmx| I125: 
+2018-05-10T20:39:14.071+08:00| vmx| I125: VMMEM: Maximum Reservation: 342MB (MainMem=16MB)
+2018-05-10T20:39:14.071+08:00| vmx| I125: MemSched: BALLOON HIST [0, 4096]: 8 8 0 0 0 0 0 0 0 0 0 0
+2018-05-10T20:39:14.071+08:00| vmx| I125: MemSched: BALLOON P50 1 P70 1 P90 1 MIN 0 MAX 0
+2018-05-10T20:39:14.071+08:00| vmx| I125: MemSched: SWAP HIST [0, 4096]: 8 8 0 0 0 0 0 0 0 0 0 0
+2018-05-10T20:39:14.071+08:00| vmx| I125: MemSched: SWAP P50 1 P70 1 P90 1 MIN 0 MAX 0
+2018-05-10T20:39:14.071+08:00| vmx| I125: MemSched: LOCK HIST [0, 4096]: 0 0 1 0 1 0 0 0 0 0 6 6
+2018-05-10T20:39:14.071+08:00| vmx| I125: MemSched: LOCK P50 100 P70 100 P90 100 MIN 488 MAX 7578
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: LOCK_TARGET HIST [0, 4096]: 0 0 0 0 0 0 0 0 0 0 8 8
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: LOCK_TARGET P50 100 P70 100 P90 100 MIN 4096 MAX 16779
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: ACTIVE_PCT HIST [0, 100]: 0 0 0 0 0 0 0 0 8 0 0 0
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: ACTIVE_PCT P50 80 P70 80 P90 80 MIN 75 MAX 75
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: NUM_VMS HIST [0, 10]: 0 0 8 0 0 0 0 0 0 0 0 0
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: NUM_VMS P50 20 P70 20 P90 20 MIN 1 MAX 1
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: HOSTLOCK HIST [0, 851968]: 0 8 0 0 0 0 0 0 0 0 0 0
+2018-05-10T20:39:14.072+08:00| vmx| I125: MemSched: HOSTLOCK P50 10 P70 10 P90 10 MIN 488 MAX 7578
+2018-05-10T20:39:14.072+08:00| vmx| I125: TOOLS received request in VMX to set option 'enableDnD' -> '0'
+2018-05-10T20:39:14.072+08:00| vmx| I125: TOOLS received request in VMX to set option 'copypaste' -> '0'
+2018-05-10T20:39:14.074+08:00| vmx| I125: ToolsISO: open of /usr/lib/vmware/isoimages/isoimages_manifest.txt.sig failed: Could not find the file
+2018-05-10T20:39:14.074+08:00| vmx| I125: ToolsISO: Unable to read signature file '/usr/lib/vmware/isoimages/isoimages_manifest.txt.sig', ignoring.
+2018-05-10T20:39:14.075+08:00| vmx| I125: ToolsISO: Guest 'dos' not found in Tools image map file '/usr/lib/vmware/isoimages/isoimages_manifest.txt'
+2018-05-10T20:39:14.075+08:00| vmx| I125: GuestOS: GuestOS_GetToolsImageName: Failed to get Tools ISO image path.
+2018-05-10T20:39:14.075+08:00| vmx| I125: Tools: ToolsRunningStatus_Exit, delayedRequest is 0x561BF15C3850
+2018-05-10T20:39:14.079+08:00| mks| I125: MKS-RenderMain: Stopping MKSBasicOps
+2018-05-10T20:39:14.079+08:00| mks| I125: MKS PowerOff
+2018-05-10T20:39:14.079+08:00| mks| I125: MKS thread is exiting
+2018-05-10T20:39:14.081+08:00| vmx| I125: ide0:0: numIOs = 271 numMergedIOs = 0 numSplitIOs = 0 ( 0.0%)
+2018-05-10T20:39:14.081+08:00| vmx| I125: Closing disk 'ide0:0'
+2018-05-10T20:39:14.189+08:00| vmx| I125: AIOLNX: asyncOps=0 syncOps=0 bufferedOps=0 RMWs=0
+2018-05-10T20:39:14.190+08:00| vmx| I125: Vix: [8935 mainDispatch.c:1179]: VMAutomationPowerOff: Powering off.
+2018-05-10T20:39:14.194+08:00| vmx| I125: Policy_SavePolicyFile: invalid arguments to function.
+2018-05-10T20:39:14.195+08:00| vmx| I125: PolicyVMX_Exit: Could not write out policies: 15.
+2018-05-10T20:39:14.195+08:00| vmx| I125: WORKER: asyncOps=298 maxActiveOps=2 maxPending=0 maxCompleted=0
+2018-05-10T20:39:14.202+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2018-05-10T20:39:14.203+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4257]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2018-05-10T20:39:14.203+08:00| vmx| I125: VMMon_UnlockPage: Failed addr 7F8A4A41F000 errno 22
+2018-05-10T20:39:14.204+08:00| vmx| A100: ConfigDB: Setting cleanShutdown = "TRUE"
+2018-05-10T20:39:14.478+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4238]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2018-05-10T20:39:14.478+08:00| vmx| I125: Vix: [8935 mainDispatch.c:4257]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2018-05-10T20:39:14.478+08:00| vmx| I125: Transitioned vmx/execState/val to poweredOff
+2018-05-10T20:39:14.479+08:00| vmx| I125: VMX idle exit
+2018-05-10T20:39:14.480+08:00| vmx| I125: WQPoolFreePoll : pollIx = 3, signalHandle = 16
+2018-05-10T20:39:14.481+08:00| vmx| I125: Vix: [8935 mainDispatch.c:834]: VMAutomation_LateShutdown()
+2018-05-10T20:39:14.481+08:00| vmx| I125: Vix: [8935 mainDispatch.c:783]: VMAutomationCloseListenerSocket. Closing listener socket.
+2018-05-10T20:39:14.482+08:00| vmx| I125: Flushing VMX VMDB connections
+2018-05-10T20:39:14.482+08:00| vmx| I125: VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2018-05-10T20:39:14.483+08:00| vmx| I125: VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2018-05-10T20:39:14.483+08:00| vmx| I125: VigorTransport_ServerDestroy: server destroyed.
+2018-05-10T20:39:14.483+08:00| vmx| I125: WQPoolFreePoll : pollIx = 2, signalHandle = 8
+2018-05-10T20:39:14.483+08:00| vmx| I125: WQPoolFreePoll : pollIx = 1, signalHandle = 9
+2018-05-10T20:39:14.495+08:00| vmx| I125: VMX exit (0).
+2018-05-10T20:39:14.495+08:00| vmx| I125: AIOMGR-S : stat o=1 r=3 w=0 i=0 br=49152 bw=0
+2018-05-10T20:39:14.495+08:00| vmx| I125: OBJLIB-LIB: ObjLib cleanup done.

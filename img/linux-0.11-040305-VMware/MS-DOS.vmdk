@@ -1,0 +1,20 @@
+# Disk DescriptorFile
+version=1
+CID=6ae5ca4b
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="monolithicFlat"
+
+# Extent description
+RW 121967 FLAT "hdc-0.11.img" 0
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.encoding = "UTF-8"
+ddb.geometry.cylinders = "208"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "0b687a2858ab30895d9f966d6ae5ca4b"
+ddb.virtualHWVersion = "4"
